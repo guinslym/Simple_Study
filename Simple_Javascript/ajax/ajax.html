@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title></title>
+	<style>
+        div {width: 800px;height: 500px;overflow: auto;border: 1px solid #008000;}
+    </style>
+</head>
+<body>
+<button id="btn">读取</button>
+<div id="div"></div>
+</body>
+<script type="text/javascript">
+	window.onload=function(){
+        var xhr;
+        var oDiv=document.getElementById("div");
+        var oBtn=document.getElementById("btn");
+        oBtn.onclick=function(){
+            if(window.XMLHttpRequest){
+                xhr = new XMLHttpRequest();
+        }else {
+            xhr = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xhr.open("GET","http://localhost/ajax/test.txt",true);
+        xhr.send();
+        xhr.onreadystatechange=function(){
+            if(xhr.readyState ==4){
+                if(xhr.status ==200){
+                    oDiv.innerText=xhr.responseText;
+                }else{
+                    oDiv.innerHTML=xhr.statusText;
+                }
+            }
+        }
+        };
+    };
+</script>
+</html>

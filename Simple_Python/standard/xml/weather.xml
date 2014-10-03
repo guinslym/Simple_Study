@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+		<rss version="2.0" xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+			<channel>
+		
+<title>Yahoo! Weather - Hyogo-ku, JP</title>
+<link>http://us.rd.yahoo.com/dailynews/rss/weather/Hyogo-ku__JP/*http://weather.yahoo.com/forecast/JAXX0040_c.html</link>
+<description>Yahoo! Weather for Hyogo-ku, JP</description>
+<language>en-us</language>
+<lastBuildDate>Sat, 05 Apr 2014 8:59 pm JST</lastBuildDate>
+<ttl>60</ttl>
+<yweather:location city="Hyogo-ku" region=""   country="Japan"/>
+<yweather:units temperature="C" distance="km" pressure="mb" speed="km/h"/>
+<yweather:wind chill="4"   direction="320"   speed="9.66" />
+<yweather:atmosphere humidity="87"  visibility="8"  pressure="982.05"  rising="0" />
+<yweather:astronomy sunrise="5:40 am"   sunset="6:21 pm"/>
+<image>
+<title>Yahoo! Weather</title>
+<width>142</width>
+<height>18</height>
+<link>http://weather.yahoo.com</link>
+<url>http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif</url>
+</image>
+<item>
+<title>Conditions for Hyogo-ku, JP at 8:59 pm JST</title>
+<geo:lat>34.68</geo:lat>
+<geo:long>135.16</geo:long>
+<link>http://us.rd.yahoo.com/dailynews/rss/weather/Hyogo-ku__JP/*http://weather.yahoo.com/forecast/JAXX0040_c.html</link>
+<pubDate>Sat, 05 Apr 2014 8:59 pm JST</pubDate>
+<yweather:condition  text="Light Rain Shower"  code="11"  temp="6"  date="Sat, 05 Apr 2014 8:59 pm JST" />
+<description><![CDATA[
+<img src="http://l.yimg.com/a/i/us/we/52/11.gif"/><br />
+<b>Current Conditions:</b><br />
+Light Rain Shower, 6 C<BR />
+<BR /><b>Forecast:</b><BR />
+Sat - Showers. High: 9 Low: 5<br />
+Sun - Rain. High: 9 Low: 3<br />
+Mon - Partly Cloudy. High: 15 Low: 8<br />
+Tue - Sunny. High: 18 Low: 9<br />
+Wed - Sunny. High: 18 Low: 11<br />
+<br />
+<a href="http://us.rd.yahoo.com/dailynews/rss/weather/Hyogo-ku__JP/*http://weather.yahoo.com/forecast/JAXX0040_c.html">Full Forecast at Yahoo! Weather</a><BR/><BR/>
+(provided by <a href="http://www.weather.com" >The Weather Channel</a>)<br/>
+]]></description>
+<yweather:forecast day="Sat" date="5 Apr 2014" low="5" high="9" text="Showers" code="11" />
+<yweather:forecast day="Sun" date="6 Apr 2014" low="3" high="9" text="Rain" code="12" />
+<yweather:forecast day="Mon" date="7 Apr 2014" low="8" high="15" text="Partly Cloudy" code="30" />
+<yweather:forecast day="Tue" date="8 Apr 2014" low="9" high="18" text="Sunny" code="32" />
+<yweather:forecast day="Wed" date="9 Apr 2014" low="11" high="18" text="Sunny" code="32" />
+<guid isPermaLink="false">JAXX0040_2014_04_09_7_00_JST</guid>
+</item>
+</channel>
+</rss>
+
+<!-- fe495.global.media.gq1.yahoo.com Sat Apr  5 13:51:43 PST 2014 -->

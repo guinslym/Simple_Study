@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+<h2>请查阅console选项:</h2>
+<p>让Author继承与Person类</p>
+</body>
+<script type="text/javascript">
+    //创建构造函数
+	function Person (name) {
+		this.name = name; //创建实例属性
+	}
+	Person.prototype.getName = function() {
+		return console.log(this.name);
+	};
+     function extend(subClass,superClass){
+     	var F = function(){};
+     	F.prototype = superClass.prototype;//充当1个第3方角色来实现继承
+     	subClass.prototype = new F();
+     	subClass.prototype.constructor = subClass;//重新设置其构造属性
+     }
+	function Author(name,books){
+		Person.call(this,name);//调用超类的构造函数，并将name参数传递给他
+		this.books = books;
+	}
+	extend(Author,Person);
+	Author.prototype.getBooks = function(){
+		return console.log(this.books);
+	}
+	var author=[];
+	author[0]=new Author("Dustin Diaz",["javascript Design Pattern","Pro Javascript"]);
+	author[1]=new Author("Ross Harmes","Pro Javascript");
+	author[0].getName();
+	author[0].getBooks();
+</script>
+</html>

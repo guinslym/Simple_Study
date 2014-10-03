@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+<h2>请查阅console选项:</h2>
+<p>单体模式</p>
+</body>
+<script type="text/javascript">
+var Singleton = (function() {
+    var private_property = 0,
+        private_method = function () {
+            console.log('This is private');
+        }
+    
+    return {
+        prop: 1,
+        another_prop: 'value',
+        method: function() {
+            private_method();
+            return private_property;
+        },
+        another_method: function() {
+        	return this.another_prop;
+        }
+    }
+}());
+var a = Singleton;
+a.method();//This is a private
+console.log(a.method());//This is a private 0
+console.log(a.another_method());//value
+</script>
+</html>

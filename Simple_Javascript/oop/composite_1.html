@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+<h2>请查阅console选项:</h2>
+<p>组合模式</p>
+</body>
+<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+<script type="text/javascript">
+var GalleryComposite = function (heading, id) {
+    this.children = [];
+    this.element = $('<div id="' + id + '" class="composite-gallery"></div>')
+    .append('<h2>' + heading + '</h2>');
+}
+
+GalleryComposite.prototype = {
+    add: function (child) {
+        this.children.push(child);
+        this.element.append(child.getElement());
+    },
+
+    remove: function (child) {
+        for (var node, i = 0; node = this.getChild(i); i++) {
+            if (node == child) {
+                this.children.splice(i, 1);
+                this.element.detach(child.getElement());
+                return true;
+            }
+            if (node.remove(child)) {
+                return true;
+            }
+        }
+        return false;
+    },
+
+    getChild: function (i) {
+        return this.children[i];
+    },
+
+    hide: function () {
+        for (var node, i = 0; node = this.getChild(i); i++) {
+            node.hide();
+        }
+        this.element.hide(0);
+    },
+
+    show: function () {
+        for (var node, i = 0; node = this.getChild(i); i++) {
+            node.show();
+        }
+        this.element.show(0);
+    },
+
+    getElement: function () {
+        return this.element;
+    }
+}
+
+//添加子类
+var GalleryImage = function (src, id) {
+    this.children = [];
+    this.element = $('<img />').attr('id', id).attr('src', src);
+}
+
+GalleryImage.prototype = {
+    // 组合模式接口
+    add: function () {},
+    remove: function () {},
+    getChild: function () {},
+    hide: function () {
+        this.element.hide(0);
+    },
+    show: function () {
+        this.element.show(0);
+    },
+    getElement: function () {
+        return this.element;
+    }
+}
+var container = new GalleryComposite('', 'allgalleries');
+var gallery1 = new GalleryComposite('Gallery 1', 'gallery1');
+var gallery2 = new GalleryComposite('Gallery 2', 'gallery2');
+var image1 = new GalleryImage('image1.jpg', 'img1');
+var image2 = new GalleryImage('image2.jpg', 'img2');
+var image3 = new GalleryImage('image3.jpg', 'img3');
+var image4 = new GalleryImage('image4.jpg', 'img4');
+var image5 = new GalleryImage('image5.jpg','img5');
+
+gallery1.add(image1);
+gallery1.add(image2);
+gallery2.add(image3);
+gallery2.add(image4);
+gallery2.add(image5);
+container.add(gallery1);
+container.add(gallery2);
+//添加根节点，并显示出来
+container.getElement().appendTo('body');
+container.show();
+</script>
+</html>

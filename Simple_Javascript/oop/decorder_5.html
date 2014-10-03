@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+<h2>请查阅console选项:</h2>
+<p>装饰器模式</p>
+</body>
+<script type="text/javascript">
+var Car = function() {
+    console.log('Assemble: build frame, add core parts');
+};
+ 
+// 装饰器需要调用该接口
+Car.prototype = {
+    start: function() {
+        console.log('The engine starts with roar!');
+    },
+    drive: function() {
+        console.log('Away we go!');
+    },
+    getPrice: function() {
+        return 11000.00;
+    }
+};
+
+//该类为装饰器抽象类，被子类实例化，从而创建真正的装饰器
+var CarDecorator = function(car) {
+    this.car = car;//对传入的实例化对象进行装饰包装
+};
+ 
+// CarDecorator实现与Car同样的接口
+CarDecorator.prototype = {
+    start: function() {
+        this.car.start();//等价于实例化对象的start方法
+    },
+    drive: function() {
+        this.car.drive();
+    },
+    getPrice: function() {
+        return this.car.getPrice();
+    }
+};
+var PowerLocksDecorator = function(car) {
+    //调用父类构造器，并继承父类的属性和方法，等价于执行了this.car=car;
+    CarDecorator.call(this, car);
+    console.log('Assemble: add power locks');
+};
+PowerLocksDecorator.prototype = new CarDecorator();//实例化1个CarDecorator对象,作为子类的原型,从而实现继承
+PowerLocksDecorator.prototype.drive = function() {
+    //this.car.drive();与下面同样的方法同样效果
+    CarDecorator.prototype.drive.call(this);
+    console.log('The doors automatically lock');
+};
+PowerLocksDecorator.prototype.getPrice = function() {
+    return this.car.getPrice() + 100;
+};
+ 
+var PowerWindowsDecorator = function(car) {
+    CarDecorator.call(this, car);
+    console.log('Assemble: add power windows');
+};
+PowerWindowsDecorator.prototype = new CarDecorator();
+PowerWindowsDecorator.prototype.getPrice = function() {
+    return this.car.getPrice() + 200;
+};
+ 
+var AcDecorator = function(car) {
+    CarDecorator.call(this, car);
+    console.log('Assemble: add A/C unit');
+};
+AcDecorator.prototype = new CarDecorator();
+AcDecorator.prototype.start = function() {
+    this.car.start();
+    console.log('The cool air starts blowing.');
+};
+AcDecorator.prototype.getPrice = function() {
+    return this.car.getPrice() + 600;
+};
+var car = new Car();                    // log "Assemble: build frame, add core parts"
+cars = new PowerWindowsDecorator(car);    // log "Assemble: add power windows"
+ 
+//添加电源锁和AC电流
+car = new PowerLocksDecorator(cars);     // log "Assemble: add power locks"
+cars = new AcDecorator(car);             // log "Assemble: add A/C unit"
+
+cars.start(); // log 'The engine starts with roar!' and 'The cool air starts blowing.'
+cars.drive(); // log 'Away we go!' and 'The doors automatically lock'
+console.log(cars.getPrice());//119000
+</script>
+</html>

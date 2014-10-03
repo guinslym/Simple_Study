@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+<h2>请查阅console选项:</h2>
+<p>观察者模式</p>
+</body>
+<script type="text/javascript">
+var Observable = function() {
+    this.subscribers = [];
+}
+ 
+Observable.prototype = {
+    subscribe: function(callback) {
+        this.subscribers.push(callback);
+    },
+    unsubscribe: function(callback) {
+        var i = 0,
+            len = this.subscribers.length;    
+        //
+        for (i; i < len; i++) {
+            if (this.subscribers[i] === callback) {
+                this.subscribers.splice(i, 1);
+                return;
+            }
+        }
+    },
+    publish: function(data) {
+        var i = 0,
+            len = this.subscribers.length;
+        for (i; i < len; i++) {
+            this.subscribers[i](data);
+        }        
+    }
+};
+ 
+var Observer = function (data) {
+    console.log(data);
+}
+ 
+// Here's where it gets used.
+observable = new Observable();
+observable.subscribe(Observer);
+observable.publish('We published!');
+</script>
+</html>

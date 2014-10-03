@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+<h2>请查阅console选项:</h2>
+<p>装饰器模式</p>
+</body>
+<script type="text/javascript">
+var tree={};
+tree.decorate=function(){
+	console.log("Make sure the tree won't fall");
+}
+tree.getDecorator=function(deco){
+	tree[deco].prototype = this;
+	return new tree[deco];
+};
+tree.RedBalls=function(){
+	this.decorate=function(){
+		this.RedBalls.prototype.decorate();
+		console.log('Put on some red balls');
+	}
+};
+tree.BlueBalls=function(){
+	this.BlueBalls.prototype.decorate();
+	console.log('Add blue balls');
+};
+tree.Angel=function(){
+	this.decorate=function(){
+		this.Angel.prototype.decorate();
+		console.log('An anger on the top');
+	}
+};
+tree=tree.getDecorator('RedBalls');
+tree=tree.getDecorator('BlueBalls');
+tree=tree.getDecorator('Angel');
+tree.decorate();
+</script>
+</html>

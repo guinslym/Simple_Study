@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+<h1>常规循环实现颜色的切换</h1>
+<div id="one">
+	<ul>
+		<li>第1项</li>
+		<li>第2项</li>
+		<li>第3项</li>
+		<li>第4项</li>
+    </ul>
+</div><br><hr>
+<h1>事件委托实现颜色的切换</h1>
+<div id="two">
+	<ul>
+		<li>第1项</li>
+		<li>第2项</li>
+		<li>第3项</li>
+		<li>第4项</li>
+	</ul>
+</div>
+</body>
+<script type="text/javascript">
+	window.onload=function(){
+		var oDiv=document.getElementById('one');
+		var oLi=oDiv.getElementsByTagName('li');
+		for(var i=0,len=oLi.length;i<len;i++){
+			oLi[i].onmouseover=function(){
+				this.style.background="red";
+			};
+			oLi[i].onmouseout=function(){
+				this.style.background="";
+			}
+		};
+		var aDiv=document.getElementById('two');
+		var oUl=aDiv.getElementsByTagName('ul')[0];
+		var aLi=aDiv.getElementsByTagName('li');
+		oUl.onmouseover=function(ev){
+			var ev=ev||window.event;
+			var target=ev.target||ev.srcElement;
+			if (target.nodeName.toLowerCase()=="li") {
+				target.style.background="red";
+			}
+		}
+		oUl.onmouseout=function(ev){
+			var ev=ev||window.event;
+			var target=ev.target||ev.srcElement;
+			if (target.nodeName.toLowerCase()=='li') {
+				target.style.background="";
+			}
+		}
+	}
+</script>
+</html>

@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+<h2>请查阅console选项:</h2>
+<p>装饰器模式</p>
+</body>
+<script type="text/javascript">
+function Coffee(f){
+	return function(){
+		this.name="I am Coffee";
+		return f.apply(this,arguments);
+	}
+}
+function Suger(){
+	return this.name + " added Suger!!!";
+}
+function Mate(){
+	return this.name + " added Mate!!!";
+}
+
+function Pure(){
+	return this.name + " added Pure";
+}
+var SugerCoffee=Coffee(Suger);
+var MateCoffee=Coffee(Mate);
+var PureCoffee=Coffee(Pure);
+var sc=SugerCoffee();
+var mc=MateCoffee();
+var pc=PureCoffee();
+console.log(sc);
+console.log(mc);
+console.log(pc);
+</script>
+</html>

@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<style type="text/css">
+	* {padding: 0;margin: 0;}
+	.red {background: red;width: 200px;height: 100px;}
+	#blue {width: 100px;height: 100px;background: blue;}
+	.float{position: absolute;top: 200px;left: 200px;}
+	</style>
+</head>
+<body>
+
+<section style="position:absolute;right:100px;top:50px;">
+<pre>
+	
+</pre>
+</section>
+<div class="float red">
+	<p>我是p元素</p>
+	<span>我是span元素</span>
+</div>
+</body>
+<script type="text/javascript" src="M.js"></script>
+<script type="text/javascript">
+//var div=Ten.DOM.getElementsByClassName('float')[0];
+var div=document.querySelector('div');
+var span=document.createElement('span');
+document.body.appendChild(span);
+M.DOM.addClassName(div,'red');
+M.DOM.removeClassName(div,'float')
+M.DOM.replaceNode(div,span);
+M.DOM.removeAllChildren(div);
+M.DOM.visible(div);
+var a=M.Event.on(div,'click',function(){
+	alert('aa');
+});
+console.log(M.core.isNumber(div));
+</script>
+</html>

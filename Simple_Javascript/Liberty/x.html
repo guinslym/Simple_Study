@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<style type="text/css">
+	* {padding: 0;margin: 0;}
+	.red {background: red;width: 200px;height: 100px;}
+	#blue {width: 100px;height: 100px;background: blue;}
+	.float{position: absolute;top: 200px;left: 200px;}
+	</style>
+</head>
+<body>
+
+<section style="position:absolute;right:100px;top:50px;">
+<pre>
+	
+</pre>
+</section>
+<div class="float red"></div>
+</body>
+<script type="text/javascript" src="Ten.js"></script>
+<script type="text/javascript">
+//var div=Ten.DOM.getElementsByClassName('float')[0];
+var div=document.querySelector('div');
+var span=document.createElement('span');
+document.body.appendChild(span);
+console.log(Ten.DOM.hasClassName(div,'red'));
+Ten.DOM.addClassName(div,'red');
+Ten.DOM.removeClassName(div,'float')
+Ten.DOM.replaceNode(div,span);
+Ten.DOM.hide(div);
+</script>
+</html>

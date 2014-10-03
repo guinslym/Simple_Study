@@ -1,0 +1,258 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>115网盘6.0</title>
+<link href="./style.css" rel="stylesheet" type="text/css" />
+<script src="./jquery.js" type="text/javascript"></script>
+<!-- <script src="static/js/jquery.easing.js" type="text/javascript"></script> -->
+<script type="text/javascript" src="./jquery.mousewheel.js"></script>
+<style>
+	.haswheel {
+overflow: hidden;
+}
+.container {
+position: relative;
+width: 100%;
+height: 100%;
+}
+.poswrap {
+position: relative;
+width: 100%;
+height: 100%;
+transition: -webkit-transform 1s ease;
+-webkit-transition: -webkit-transform 1s ease;
+-moz-transition: -moz-transform 1s ease;
+-o-transition: -moz-transform 1s ease;
+}
+</style>
+</head>
+
+<body id="js-page1">
+<div class="container poswrap" id="poswrap">
+	<div class="section-box section-01 ipage js-page1 section-active">
+		<div class="top-flag">新版上线</div>
+		<div class="special-title">115网盘6.0</div>
+		<div class="special-slogan">务实·勇敢&快乐</div>
+		<a href="javascript:;" id="js_next_btn" class="special-feature-link">查看新版特性</a>
+	</div>
+	<div class="section-box section-02 ipage js-page2">
+		<div class="section-title">更纯粹</div>
+		<div class="section-info">社交+数据   打造你的个人数据中心</div>
+		<div class="special-data-star"></div>
+		<div class="special-data-box">
+			<i class="special-data-tree"></i>
+			<i class="tree-root"></i>
+			<i class="tree-child tree-child-01"></i>
+			<i class="tree-child tree-child-02"></i>
+			<i class="tree-child tree-child-03"></i>
+			<i class="tree-child tree-child-04"></i>
+			<i class="tree-child tree-child-05"></i>
+			<i class="tree-child tree-child-06"></i>
+			<i class="tree-child tree-child-07"></i>
+			<i class="tree-child tree-child-08"></i>
+			<i class="tree-child tree-child-09"></i>
+			<i class="tree-child tree-child-10"></i>
+			<i class="tree-child tree-child-11"></i>
+		</div>
+	</div>
+	<div class="section-box section-03 ipage js-page3">
+		<div class="section-title">更简洁</div>
+		<div class="section-info">重实用 无干扰   梳理全站链路，不再迷路</div>
+		<div class="special-layout">
+			<i class="layout-staff-horizontal"></i>
+			<i class="layout-staff-vertical"></i>
+			<i class="layout-outline"></i>
+			<i class="layout-show"></i>
+		</div>
+	</div>
+	<div class="section-box section-04 ipage js-page4">
+		<div class="section-title">更贴身</div>
+		<div class="section-info">全能手机端上线   存储 社交 娱乐  一网打尽</div>
+		<div class="special-phone">
+			<i class="phone-pic"></i>
+			<i class="phone-qcode">
+				<img src="./pc-code.png" style="width: 125px;height: 125px;padding: 34px 0 0 10px;" />
+			</i>
+			<div class="phone-download">
+				<a href="https://itunes.apple.com/us/app/115wang-pan/id647500047?mt=8" target="_blank" class="pd-apple"><i></i><strong>iPhone版下载</strong><em>发布时间：2013-10-15</em></a>
+				<a href="http://down.115.com/client/android/115_android_v4.0.0.apk" target="_blank" class="pd-android"><i></i><strong>Android版下载</strong><em>发布时间：2013-10-15</em></a>
+			</div>
+		</div>
+		<div class="special-entrance">
+			<a href="http://115.com">进入新版</a>
+		</div>
+	</div>
+	
+</div>
+<div class="float-nav-dot" id="js_float_nav">
+		<a href="javascript:;" class="current" id="js_nav_section_01" rel="1"><i>首页</i></a>
+		<a href="javascript:;" id="js_nav_section_02" rel="2"><i>逻辑</i></a>
+		<a href="javascript:;" id="js_nav_section_03" rel="3"><i>结构</i></a>
+		<a href="javascript:;" id="js_nav_section_04" rel="4"><i>下载</i></a>
+	</div>
+<script type="text/javascript">
+(function($){
+	
+	/*$("#js_section_01").addClass("section-active");
+	
+	$("#js_float_nav").children().each(function(){
+		$(this).bind("click", function(){
+			var num = $(this).attr("rel");
+			scrollToElement(num);
+		});
+	});
+	
+	function currentNav(num){
+		var nav = $("#js_nav_section_0" + num);
+		nav.parent().children().removeClass("current");
+		nav.addClass("current");
+	}
+	
+	function scrollToElement(num) {
+		var element = $("#js_section_0" + num);
+		if(!element.hasClass("section-active")) {
+			element.addClass("section-active");
+		}
+		$("body").animate(
+			{
+				scrollTop: element.offset().top
+			},
+			{
+			easing: 'easeInOutExpo', 
+			duration: 1000,
+			callback: function() {
+				
+			}
+		});
+		currentNav(num); 
+	}*/
+	
+
+	;(function (window, $) {
+		$(function() {
+		    setTimeout(scrollTo, 0, 0, 1);
+		    $(window).height();
+		    $(".ipage").size();
+		    var a = 0, e = null, g = function() {
+		        var b = document.createElement("div"), a = "Khtml Ms O Moz Webkit".split(" ");
+		        return function(c) {
+		            if (c in b.style)
+		                return true;
+		            for (var c = c.replace(/^[a-z]/, function(b) {
+		                return b.toUpperCase()
+		            }), d = a.length; d--; )
+		                if (a[d] + c in b.style)
+		                    return true;
+		            return false
+		        }
+		    }();
+		    var f = 
+		        {}, h = function() {
+		            var b = [0], c = 0, a = $(window).height();//, a = a > 800 ? a : 800;
+		            $(".ipage").each(function(a, b) {
+		                c += $(b).height()
+		            });
+		            c += 50;
+		            for (var d = c % a, e = Math.floor(c / a), h = d === 0 ? e : Math.ceil(c / a), g = 0; g < e - 1; )
+		                b.push(a + b[g]), g++;
+		            d && b.push(d + b[e - 1]);
+		            f.arr = b;
+		            f.inds = h;
+		            return f
+		        };
+		   $('#js-scroll_top').on('click', function () {
+		    	if (g("transform") && g("transition")) {
+		    		var m = $("body").attr('id').replace('js-page','');
+		    		i(-(m-1));
+		    	}else {
+		    		$(window).scrollTop(0);
+		    	}
+		    });
+		    if (g("transform") && g("transition")) {
+		        $("body").addClass("haswheel");
+		        $(window).mousewheel(function(b, c, a, d) {
+		            e && window.clearTimeout(e);
+		            e = window.setTimeout(function() {
+		                d < 0 ? i(1) : i(-1)
+		            }, 300);
+		        });
+		        //$(".js-page4").height();
+		        
+		        h();
+		        $(window).resize(function() {
+		            h();
+		            i(0)
+		        });
+ 				/*$('#js-scroll_next').show();
+
+		        $('#js-scroll_top').off('click').on('click', function (argument) {
+		            i(-1);
+		            return false;
+		        })
+		        $('#js-scroll_next').off('click').on('click', function (argument) {
+		            i(1);
+		            return false;
+		        })*/
+
+		        $(window).keydown(function(b) {
+		            b.preventDefault();
+		            switch (b.keyCode || b.which || b.charCode) {
+		                case 38:
+		                    i(-1);
+		                    break;
+		                case 40:
+		                    i(1)
+		            }
+		        });
+                        $('#js_next_btn').on('click', function(){
+                            i(1);
+                            return false;
+                        });
+		        var body = $('body');
+		        var float_nav = $('#js_float_nav');
+		        float_nav.on('click', 'a',function () {
+		        	var el = $(this);
+		        	if(el.hasClass('current')) {
+		        		return false;
+		        	}
+		        	i(el.index() - a);
+		        	//console.log([el.index(), a]);
+		        	//i()
+		        })
+		        var c = 0, i = function(b) {
+		        	if(a+b >= 4) {
+		        		return false;
+		        	}
+
+		            a += b;
+		            c += b;
+		            b = f.inds - 1;
+		            if (a < 0 || a === 0)
+		                a = 0;
+		            else if (a === b || a > b)
+		                a = 
+		                b;
+		            if (c < 0 || c === 0)
+		                c = 0;
+		            else if (c === b || c > b)
+		                c = b;
+
+			            body.attr("id", "js-page" + (a+1));
+			            body.find('.section-active').removeClass('section-active');
+			            float_nav.find('.current').removeClass('current');
+			            body.find(".js-page" + (a+1)).addClass('section-active');
+			            float_nav.find('a:eq('+a+')').addClass('current');
+			            var height_number = f.arr[c] ;//+ ((a+1 > 1) ? 70 : 0);
+			            $("#poswrap").css({"-webkit-transform": "translate(0px, -" + height_number + "px)","-moz-transform": "translate(0px, -" + height_number + "px)","-o-transform": "translate(0px, -" + height_number + "px)","-ms-transform": "translate(0px, -" + height_number + "px)",transform: "translate(0px, -" + height_number + "px)"})
+		        }
+		    }
+		});
+	})(window, jQuery);
+
+
+})(jQuery);
+</script>
+</body>
+</html>

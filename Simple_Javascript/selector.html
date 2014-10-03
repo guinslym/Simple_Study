@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<style type="text/css">
+	* {padding: 0;margin: 0;}
+	div {width: 100px;height: 100px;background: red;position: absolute;top: 100px;left: 200px;}
+	.div1 {left: 400px;}
+	#div2 {left: 600px;}
+	#ref {left: 0;}
+	</style>
+</head>
+<body>
+<div>div</div>
+<div id="ref">#ref</div>
+<div class="div1">.div1</div>
+<div id="div2">#div2</div>
+<div class="div1" style="top:300px;">.div1的兄弟版本,因为querySelector获取到第1个满足条件后即停止了，该颜色继承于父类</div>
+<section style="position:absolute;right:100px;top:50px;">
+<pre>
+	function $(){
+		var elems=[];
+		for (var i = arguments.length-1; i >=0; i--) {
+			var elem=arguments[i];
+			if (typeof elem =='string') {
+				elem=document.querySelector(elem);
+			}
+			if (arguments.length==1) {
+				return elem;
+			}
+			elems.push(elem);
+		}
+		return elems;
+	}
+	var d=$('.div1');
+	var e=$('#div2');
+	var c=$('div');
+	d.style.background="green";
+	e.style.background="blue";
+	c.style.background="yellow";
+</pre>
+</section>
+</body>
+<script type="text/javascript" src="api.js"></script>
+<script type="text/javascript">
+	function $(){
+		var elems=[];
+		for (var i = arguments.length-1; i >=0; i--) {
+			var elem=arguments[i];
+			if (typeof elem =='string') {
+				elem=document.querySelector(elem);
+			}
+			if (arguments.length==1) {
+				return elem;
+			}
+			elems.push(elem);
+		}
+		return elems;
+	}
+	var d=$('.div1');
+	var e=$('#div2');
+	var c=$('div');
+	d.style.background="green";
+	e.style.background="blue";
+	c.style.background="yellow";
+</script>
+</html>

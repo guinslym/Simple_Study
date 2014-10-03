@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+<h2>请查阅console选项:</h2>
+<p>单体模式</p>
+</body>
+<script type="text/javascript">
+function Sale (price) {
+	this.price = price|| 100;
+}
+Sale.prototype.getPrice=function(){
+	return this.price;
+}
+Sale.prototype.decorate=function(decorater){
+	var F=function(){},overrides=this.constructor.decorate[decorater];
+	var i,newobj;
+	F.prototype=this;
+	newobj = new F();
+	newobj.uber = F.prototype;
+	for (i in overrides){
+		if (overrides.hasOwnProperty(i)) {
+			newobj[i]=overrides[i];
+		};
+	}
+	return newobj;
+}
+Sale.decorate={};
+Sale.decorate.fedtax={
+	getPrice:function(){
+		var price = this.uber.getPrice();
+		price +=price*5/100;
+		return price
+	}
+};
+Sale.decorate.quebec={
+	getPrice:function(){
+		var price = this.uber.getPrice();
+		price +=price*7.5/100;
+		return price;
+	}
+};
+Sale.decorate.money={
+	getPrice:function(){
+		return "$"+this.uber.getPrice().toFixed(2);
+	}
+};
+var sale=new Sale(100);
+sale =sale.decorate('fedtax');
+console.log(sale.getPrice());
+sale = sale.decorate('quebec');
+console.log(sale.getPrice());
+sale = sale.decorate('money');
+console.log(sale.getPrice());
+</script>
+</html>

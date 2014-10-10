@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1032b550-1af7-410a-b9d6-0c6edd606041" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thirty-part/PyQt5/calendar_1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thirty-part/PyQt5/menu_1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/standard/socket/socket_4.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/standard/socket/socket_5.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/standard/socket/socket_6.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/standard/socket/socket_7.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thirty-part/PyQt5/tabbar_1.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Simple_Python.iws" />
@@ -16,13 +19,19 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Simple_Python$menu_1.coverage" NAME="menu_1 Coverage Results" MODIFIED="1412582977470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
     <SUITE FILE_PATH="coverage/Simple_Python$spinbox_1.coverage" NAME="spinbox_1 Coverage Results" MODIFIED="1412575380198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
+    <SUITE FILE_PATH="coverage/Simple_Python$menu_1.coverage" NAME="menu_1 Coverage Results" MODIFIED="1412582977470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
     <SUITE FILE_PATH="coverage/Simple_Python$text_browser_1.coverage" NAME="text_browser_1 Coverage Results" MODIFIED="1412581070684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
+    <SUITE FILE_PATH="coverage/Simple_Python$socket_6.coverage" NAME="socket_6 Coverage Results" MODIFIED="1412946386224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/standard/socket" />
     <SUITE FILE_PATH="coverage/Simple_Python$button_1.coverage" NAME="button_1 Coverage Results" MODIFIED="1412573809810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
-    <SUITE FILE_PATH="coverage/Simple_Python$checkbox_1.coverage" NAME="checkbox_1 Coverage Results" MODIFIED="1412574289436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
+    <SUITE FILE_PATH="coverage/Simple_Python$socket_4.coverage" NAME="socket_4 Coverage Results" MODIFIED="1412944748394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/standard/socket" />
+    <SUITE FILE_PATH="coverage/Simple_Python$socket_5.coverage" NAME="socket_5 Coverage Results" MODIFIED="1412945964530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/standard/socket" />
     <SUITE FILE_PATH="coverage/Simple_Python$combobox_1.coverage" NAME="combobox_1 Coverage Results" MODIFIED="1412574569195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
+    <SUITE FILE_PATH="coverage/Simple_Python$checkbox_1.coverage" NAME="checkbox_1 Coverage Results" MODIFIED="1412574289436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
+    <SUITE FILE_PATH="coverage/Simple_Python$socket_7.coverage" NAME="socket_7 Coverage Results" MODIFIED="1412947193382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/standard/socket" />
+    <SUITE FILE_PATH="coverage/Simple_Python$tabbar_1.coverage" NAME="tabbar_1 Coverage Results" MODIFIED="1412663422394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
     <SUITE FILE_PATH="coverage/Simple_Python$calendar_1.coverage" NAME="calendar_1 Coverage Results" MODIFIED="1412580385484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
+    <SUITE FILE_PATH="coverage/Simple_Python$socket_2.coverage" NAME="socket_2 Coverage Results" MODIFIED="1412944458969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/standard/socket" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -61,12 +70,17 @@
         <option value="$PROJECT_DIR$/thirty-part/PyQt5/calendar_1.py" />
         <option value="$PROJECT_DIR$/thirty-part/PyQt5/text_browser_1.py" />
         <option value="$PROJECT_DIR$/thirty-part/PyQt5/menu_1.py" />
+        <option value="$PROJECT_DIR$/thirty-part/PyQt5/tabbar_1.py" />
+        <option value="$PROJECT_DIR$/standard/socket/socket_4.py" />
+        <option value="$PROJECT_DIR$/standard/socket/socket_5.py" />
+        <option value="$PROJECT_DIR$/standard/socket/socket_6.py" />
+        <option value="$PROJECT_DIR$/standard/socket/socket_7.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-42" />
-    <option name="y" value="160" />
+    <option name="x" value="-19" />
+    <option name="y" value="90" />
     <option name="width" value="1346" />
     <option name="height" value="621" />
   </component>
@@ -141,7 +155,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="thirty-part" />
+              <option name="myItemId" value="standard" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -155,11 +169,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="thirty-part" />
+              <option name="myItemId" value="standard" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PyQt5" />
+              <option name="myItemId" value="socket" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -177,21 +191,21 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="133" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.lastSelected" value="preferences.fileTypes" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="136" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="933" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="933" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="933" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="136" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="134" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -201,97 +215,97 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.menu_1">
-    <configuration default="false" name="combobox_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.socket_7">
+    <configuration default="false" name="socket_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/thirty-part/PyQt5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/standard/socket" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Simple_Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/thirty-part/PyQt5/combobox_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/standard/socket/socket_2.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="spinbox_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="socket_4" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/thirty-part/PyQt5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/standard/socket" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Simple_Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/thirty-part/PyQt5/spinbox_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/standard/socket/socket_4.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="menu_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="socket_5" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/thirty-part/PyQt5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/standard/socket" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Simple_Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/thirty-part/PyQt5/menu_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/standard/socket/socket_5.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="calendar_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="socket_6" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/thirty-part/PyQt5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/standard/socket" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Simple_Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/thirty-part/PyQt5/calendar_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/standard/socket/socket_6.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="text_browser_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="socket_7" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/thirty-part/PyQt5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/standard/socket" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Simple_Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/thirty-part/PyQt5/text_browser_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/standard/socket/socket_7.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -381,9 +395,6 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
-      <method />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -405,6 +416,9 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -448,19 +462,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.combobox_1" />
-      <item index="1" class="java.lang.String" itemvalue="Python.spinbox_1" />
-      <item index="2" class="java.lang.String" itemvalue="Python.menu_1" />
-      <item index="3" class="java.lang.String" itemvalue="Python.calendar_1" />
-      <item index="4" class="java.lang.String" itemvalue="Python.text_browser_1" />
+      <item index="0" class="java.lang.String" itemvalue="Python.socket_2" />
+      <item index="1" class="java.lang.String" itemvalue="Python.socket_4" />
+      <item index="2" class="java.lang.String" itemvalue="Python.socket_5" />
+      <item index="3" class="java.lang.String" itemvalue="Python.socket_6" />
+      <item index="4" class="java.lang.String" itemvalue="Python.socket_7" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.menu_1" />
-        <item index="1" class="java.lang.String" itemvalue="Python.text_browser_1" />
-        <item index="2" class="java.lang.String" itemvalue="Python.calendar_1" />
-        <item index="3" class="java.lang.String" itemvalue="Python.spinbox_1" />
-        <item index="4" class="java.lang.String" itemvalue="Python.combobox_1" />
+        <item index="0" class="java.lang.String" itemvalue="Python.socket_7" />
+        <item index="1" class="java.lang.String" itemvalue="Python.socket_6" />
+        <item index="2" class="java.lang.String" itemvalue="Python.socket_5" />
+        <item index="3" class="java.lang.String" itemvalue="Python.socket_4" />
+        <item index="4" class="java.lang.String" itemvalue="Python.socket_2" />
       </list>
     </recent_temporary>
   </component>
@@ -491,19 +505,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-42" y="160" width="1346" height="621" extended-state="0" />
+    <frame x="-19" y="90" width="1346" height="621" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32761905" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962853" sideWeight="0.62095237" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24888559" sideWeight="0.62285715" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32846716" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37904763" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37714285" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.316609" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -543,37 +557,86 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/thirty-part/PyQt5/combobox_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="20" selection-end="20" vertical-scroll-proportion="0.054446463" vertical-offset="0" max-vertical-offset="551">
-          <folding>
-            <element signature="e#20#70#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="2" column="0" selection-start="20" selection-end="20" vertical-scroll-proportion="0.054446463" vertical-offset="0" max-vertical-offset="551" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/thirty-part/PyQt5/calendar_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="21" selection-start="137" selection-end="137" vertical-scroll-proportion="0.30100334" vertical-offset="0" max-vertical-offset="299">
-          <folding>
-            <element signature="e#20#76#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="6" column="21" selection-start="137" selection-end="137" vertical-scroll-proportion="0.30100334" vertical-offset="0" max-vertical-offset="299" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/thirty-part/PyQt5/spinbox_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="20" selection-end="20" vertical-scroll-proportion="0.09698997" vertical-offset="1" max-vertical-offset="315">
-          <folding>
-            <element signature="e#20#69#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="2" column="0" selection-start="20" selection-end="20" vertical-scroll-proportion="0.09698997" vertical-offset="1" max-vertical-offset="315" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/thirty-part/PyQt5/menu_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="23" selection-start="338" selection-end="338" vertical-scroll-proportion="0.50167227" vertical-offset="45" max-vertical-offset="405">
+        <state line="13" column="23" selection-start="338" selection-end="338" vertical-scroll-proportion="0.50167227" vertical-offset="45" max-vertical-offset="405" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thirty-part/PyQt5/tabbar_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="16" selection-start="125" selection-end="125" vertical-scroll-proportion="0.37634408" vertical-offset="0" max-vertical-offset="279" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standard/SocketServer/socket_server_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.1626506" vertical-offset="1077" max-vertical-offset="1575">
           <folding>
-            <element signature="e#66#115#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standard/socket/socket_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standard/socket/socket_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="379">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standard/socket/socket_4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standard/socket/socket_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="32" selection-start="200" selection-end="200" vertical-scroll-proportion="0.3" vertical-offset="0" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standard/socket/socket_5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="142" selection-end="142" vertical-scroll-proportion="0.4" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standard/socket/socket_6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="26" selection-start="448" selection-end="448" vertical-scroll-proportion="0.75" vertical-offset="0" max-vertical-offset="315">
+          <folding>
+            <element signature="e#65#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standard/socket/socket_7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="10" selection-start="90" selection-end="90" vertical-scroll-proportion="0.35" vertical-offset="0" max-vertical-offset="345">
+          <folding />
         </state>
       </provider>
     </entry>

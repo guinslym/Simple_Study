@@ -7,7 +7,7 @@ def fact(n):
 	else:
 		return n*fact(n-1)
 
-print(fact(4)) #24
+print(fact(4)) #24.ico
 print(fact(1)) #1
 
 # 1+2+3+4=(1+4)*2

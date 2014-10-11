@@ -3,7 +3,7 @@
 __author__ = 'tim'
 
 import sys
-from PyQt5.QtWidgets import QApplication,QWidget,QToolTip
+from PyQt5.QtWidgets import QApplication,QWidget, QToolTip
 from PyQt5.QtGui import QFont
 
 class Tooptip(QWidget):

@@ -4,7 +4,6 @@ __author__ = 'tim'
 
 import sys
 from PyQt5.QtWidgets import QApplication,QWidget,QPushButton,qApp
-from PyQt5.QtCore import pyqtSignal,pyqtSlot
 
 class QuitButton(QWidget):
     def __init__(self,parent=None):
@@ -15,8 +14,7 @@ class QuitButton(QWidget):
 
         quit=QPushButton('close',self)
         quit.setGeometry(10,10,60,35)
-
-        #QObject.connect(quit,pyqtSignal('click'),qApp,pyqtSlot('quit'))
+        quit.clicked.connect(qApp.quit)
 
 app=QApplication(sys.argv)
 qb=QuitButton()

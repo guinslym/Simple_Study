@@ -1,1 +1,20 @@
+#! /usr/bin/env/python
+# -*- coding:utf-8 -*-
 __author__ = 'tim'
+import psycopg2
+
+
+class psql(object):
+    def __init__(self,user,dbname):
+        self.conn=psycopg2.connect("user={user} dbname={dbname}".format(user=user,dbname=dbname))
+        self.cur=self.conn.cursor()
+
+    def getFetchAll(self,sql):
+        self.cur.execute(sql)
+        return self.cur.fetchall()
+
+a=psql(user='tim',dbname='tim')
+sql='select * from cities'
+res=a.getFetchAll(sql)
+for i,v in res:
+    print i,v

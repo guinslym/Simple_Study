@@ -5,7 +5,6 @@ __author__ = 'tim'
 import sys
 from PyQt5.QtWidgets import QApplication,QMainWindow,QAction,qApp
 from PyQt5.QtGui import QIcon
-from PyQt5.QtCore import pyqtSignal,pyqtSlot
 
 
 class MainWindow(QMainWindow):
@@ -16,6 +15,7 @@ class MainWindow(QMainWindow):
         exit=QAction(QIcon('48.png'),'Exit',self)
         exit.setShortcut('Ctrl+Q')
         exit.setStatusTip('Exit application')
+        exit.triggered.connect(qApp.exit)
 
         self.statusBar()
         menubar=self.menuBar()

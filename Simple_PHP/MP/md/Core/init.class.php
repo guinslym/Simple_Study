@@ -35,8 +35,8 @@ class Boot{
 		define('APP_CORE',APP_PATH.'Core/');//应用核心类目录
 		define('APP_CONF',APP_PATH.'Conf/');//应用配置文件目录
 		define('APP_PUB',APP_VIEW.'Public/');//应用视图公共文件目录
-    define('SMARTY',ROOT_PUB.'/Smarty/');//Smarty引擎的文件目录
-    define('UEDITOT',ROOT_PUB.'/Ueditor/');//百度编辑器的文件目录
+        define('SMARTY',ROOT_PUB.'Smarty/');//Smarty引擎的文件目录
+        define('UEDITOR',ROOT_PUB.'Ueditor/');//百度编辑器的文件目录
 	}
 
 	//设置错误模式
@@ -94,7 +94,7 @@ class Boot{
 	//设置URL截取模式
 	private static function setUrl(){
 		$module=isset($_REQUEST['m'])? $_REQUEST['m'] : 'index';
-		$action=isset($_REQUEST['a'])? $_REQUEST['c'] : 'index';
+		$action=isset($_REQUEST['c'])? $_REQUEST['c'] : 'index';
 
 		$module=strtolower($module);
 		$action=strtolower($action);
@@ -126,7 +126,7 @@ class Boot{
 					copy(CORE."Action.class.php",APP_CORE."Action.class.php");
 					copy(MODEL."DB.class.php",APP_MODEL."DB.class.php");
 					copy(CONF."config.php",APP_CONF."config.php");
-				copy(ACTION."IndexAction.class.php",APP_ACTION."IndexAction.class.php");
+				    copy(ACTION."IndexAction.class.php",APP_ACTION."IndexAction.class.php");
 				}
 			}
 	    }

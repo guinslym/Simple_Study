@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1032b550-1af7-410a-b9d6-0c6edd606041" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thirty-part/PySide/LCD_CLOCK_1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thirty-part/PySide/hello_world.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/standard/BaseHTTPServer/data_download_for_python.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/standard/urllib/get_http_header.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/standard/BaseHTTPServer/save_cookie.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/standard/BaseHTTPServer/simple_http_server.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Simple_PHP/MP/md/Model/Category.class.php" afterPath="$PROJECT_DIR$/../Simple_PHP/MP/md/Model/Category.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Simple_PHP/MP/md/Model/Image.class.php" afterPath="$PROJECT_DIR$/../Simple_PHP/MP/md/Model/Image.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Simple_PHP/MP/md/Model/Session.class.php" afterPath="$PROJECT_DIR$/../Simple_PHP/MP/md/Model/Session.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Simple_Python.iml" afterPath="$PROJECT_DIR$/.idea/Simple_Python.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Simple_PHP/MP/md/Model/Upload.class.php" afterPath="$PROJECT_DIR$/../Simple_PHP/MP/md/Model/Upload.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Simple_PHP/MP/md/Core/init.class.php" afterPath="$PROJECT_DIR$/../Simple_PHP/MP/md/Core/init.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Simple_Python.iws" />
@@ -16,29 +24,36 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Simple_Python$test.coverage" NAME="test Coverage Results" MODIFIED="1415861737232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Simple_Python$menu_1.coverage" NAME="menu_1 Coverage Results" MODIFIED="1412582977470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
     <SUITE FILE_PATH="coverage/Simple_Python$widget_2.coverage" NAME="widget_2 Coverage Results" MODIFIED="1412955280432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
     <SUITE FILE_PATH="coverage/Simple_Python$button_1.coverage" NAME="button_1 Coverage Results" MODIFIED="1412573809810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
+    <SUITE FILE_PATH="coverage/Simple_Python$VerifyCode.coverage" NAME="VerifyCode Coverage Results" MODIFIED="1418203286742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/Pillow" />
     <SUITE FILE_PATH="coverage/Simple_Python$widget_5.coverage" NAME="widget_5 Coverage Results" MODIFIED="1412992537002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
     <SUITE FILE_PATH="coverage/Simple_Python$checkbox_1.coverage" NAME="checkbox_1 Coverage Results" MODIFIED="1412574289436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
     <SUITE FILE_PATH="coverage/Simple_Python$grid_layout_1.coverage" NAME="grid_layout_1 Coverage Results" MODIFIED="1413079701617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
     <SUITE FILE_PATH="coverage/Simple_Python$vboxLayout_1.coverage" NAME="vboxLayout_1 Coverage Results" MODIFIED="1413013998117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
     <SUITE FILE_PATH="coverage/Simple_Python$widget_3.coverage" NAME="widget_3 Coverage Results" MODIFIED="1412955561898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
+    <SUITE FILE_PATH="coverage/Simple_Python$time_iter.coverage" NAME="time_iter Coverage Results" MODIFIED="1415880190112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/standard/time" />
     <SUITE FILE_PATH="coverage/Simple_Python$Box_1.coverage" NAME="Box_1 Coverage Results" MODIFIED="1412994066025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
     <SUITE FILE_PATH="coverage/Simple_Python$signalSlot_1.coverage" NAME="signalSlot_1 Coverage Results" MODIFIED="1413016342219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
     <SUITE FILE_PATH="coverage/Simple_Python$button_2.coverage" NAME="button_2 Coverage Results" MODIFIED="1413081657573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
+    <SUITE FILE_PATH="coverage/Simple_Python$time_fact.coverage" NAME="time_fact Coverage Results" MODIFIED="1415879904865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/standard/time" />
+    <SUITE FILE_PATH="coverage/Simple_Python$get_http_header.coverage" NAME="get_http_header Coverage Results" MODIFIED="1417432799600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/standard/urllib" />
     <SUITE FILE_PATH="coverage/Simple_Python$socket_2.coverage" NAME="socket_2 Coverage Results" MODIFIED="1412944458969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/standard/socket" />
     <SUITE FILE_PATH="coverage/Simple_Python$text_browser_1.coverage" NAME="text_browser_1 Coverage Results" MODIFIED="1412581070684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
     <SUITE FILE_PATH="coverage/Simple_Python$socket_5.coverage" NAME="socket_5 Coverage Results" MODIFIED="1412945964530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/standard/socket" />
     <SUITE FILE_PATH="coverage/Simple_Python$dir_model_1.coverage" NAME="dir_model_1 Coverage Results" MODIFIED="1413097098747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
     <SUITE FILE_PATH="coverage/Simple_Python$image_1.coverage" NAME="image_1 Coverage Results" MODIFIED="1412948996054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/Pillow" />
     <SUITE FILE_PATH="coverage/Simple_Python$widget_4.coverage" NAME="widget_4 Coverage Results" MODIFIED="1412992193068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
+    <SUITE FILE_PATH="coverage/Simple_Python$simple_http_server.coverage" NAME="simple_http_server Coverage Results" MODIFIED="1417227673712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/standard/BaseHTTPServer" />
     <SUITE FILE_PATH="coverage/Simple_Python$LCD_CLOCK_1.coverage" NAME="LCD_CLOCK_1 Coverage Results" MODIFIED="1413191444484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PySide" />
     <SUITE FILE_PATH="coverage/Simple_Python$spinbox_1.coverage" NAME="spinbox_1 Coverage Results" MODIFIED="1412575380198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
     <SUITE FILE_PATH="coverage/Simple_Python$image_2.coverage" NAME="image_2 Coverage Results" MODIFIED="1412949716269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/Pillow" />
     <SUITE FILE_PATH="coverage/Simple_Python$socket_6.coverage" NAME="socket_6 Coverage Results" MODIFIED="1412946386224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/standard/socket" />
-    <SUITE FILE_PATH="coverage/Simple_Python$socket_4.coverage" NAME="socket_4 Coverage Results" MODIFIED="1412944748394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/standard/socket" />
+    <SUITE FILE_PATH="coverage/Simple_Python$data_download_for_python.coverage" NAME="data_download_for_python Coverage Results" MODIFIED="1417226621710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/standard/BaseHTTPServer" />
     <SUITE FILE_PATH="coverage/Simple_Python$widget_1.coverage" NAME="widget_1 Coverage Results" MODIFIED="1412953979483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
+    <SUITE FILE_PATH="coverage/Simple_Python$socket_4.coverage" NAME="socket_4 Coverage Results" MODIFIED="1412944748394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/standard/socket" />
     <SUITE FILE_PATH="coverage/Simple_Python$combobox_1.coverage" NAME="combobox_1 Coverage Results" MODIFIED="1412574569195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
     <SUITE FILE_PATH="coverage/Simple_Python$socket_7.coverage" NAME="socket_7 Coverage Results" MODIFIED="1412947193382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/standard/socket" />
     <SUITE FILE_PATH="coverage/Simple_Python$tabbar_1.coverage" NAME="tabbar_1 Coverage Results" MODIFIED="1412663422394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
@@ -53,12 +68,18 @@
     <SUITE FILE_PATH="coverage/Simple_Python$postgresql_3.coverage" NAME="postgresql_3 Coverage Results" MODIFIED="1413074335105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/postgresql" />
     <SUITE FILE_PATH="coverage/Simple_Python$slide_1.coverage" NAME="slide_1 Coverage Results" MODIFIED="1413084528154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
     <SUITE FILE_PATH="coverage/Simple_Python$menu_bar_1.coverage" NAME="menu_bar_1 Coverage Results" MODIFIED="1413161664267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
+    <SUITE FILE_PATH="coverage/Simple_Python$save_cookie.coverage" NAME="save_cookie Coverage Results" MODIFIED="1417229229622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/standard/BaseHTTPServer" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
+  </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+    <sortChildren value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -83,14 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/thirty-part/PyQt5/Box_1.py" />
-        <option value="$PROJECT_DIR$/thirty-part/PyQt5/grid_layout_1.py" />
-        <option value="$PROJECT_DIR$/thirty-part/PyQt5/label_1.py" />
-        <option value="$PROJECT_DIR$/thirty-part/PyQt5/widget_3.py" />
-        <option value="$PROJECT_DIR$/thirty-part/PyQt5/vboxLayout_1.py" />
-        <option value="$PROJECT_DIR$/thirty-part/PyQt5/signalSlot_1.py" />
-        <option value="$PROJECT_DIR$/thirty-part/PyQt5/signal_1.py" />
-        <option value="$PROJECT_DIR$/thirty-part/PyQt5/button_2.py" />
         <option value="$PROJECT_DIR$/thirty-part/postgresql/postgresql_3.py" />
         <option value="$PROJECT_DIR$/thirty-part/postgresql/postgresql_4.py" />
         <option value="$PROJECT_DIR$/thirty-part/PyQt5/slide_1.py" />
@@ -99,6 +112,14 @@
         <option value="$PROJECT_DIR$/thirty-part/PyQt5/menu_bar_1.py" />
         <option value="$PROJECT_DIR$/thirty-part/PySide/hello_world.py" />
         <option value="$PROJECT_DIR$/thirty-part/PySide/LCD_CLOCK_1.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/standard/time/time_fact.py" />
+        <option value="$PROJECT_DIR$/standard/time/time_iter.py" />
+        <option value="$PROJECT_DIR$/standard/BaseHTTPServer/data_download_for_python.py" />
+        <option value="$PROJECT_DIR$/standard/BaseHTTPServer/simple_http_server.py" />
+        <option value="$PROJECT_DIR$/standard/BaseHTTPServer/save_cookie.py" />
+        <option value="$PROJECT_DIR$/standard/urllib/get_http_header.py" />
+        <option value="$PROJECT_DIR$/thirty-part/Pillow/VerifyCode.py" />
       </list>
     </option>
   </component>
@@ -149,6 +170,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -195,13 +217,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PySide" />
+              <option name="myItemId" value="Pillow" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -214,7 +235,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="133" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Background" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="136" />
@@ -238,97 +259,97 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.LCD_CLOCK_1">
-    <configuration default="false" name="Main_window_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.VerifyCode">
+    <configuration default="false" name="simple_http_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/thirty-part/PyQt5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/standard/BaseHTTPServer" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Simple_Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/thirty-part/PyQt5/Main_window_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/standard/BaseHTTPServer/simple_http_server.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="dir_model_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="data_download_for_python" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/thirty-part/PyQt5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/standard/BaseHTTPServer" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Simple_Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/thirty-part/PyQt5/dir_model_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/standard/BaseHTTPServer/data_download_for_python.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="menu_bar_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="save_cookie" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/thirty-part/PyQt5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/standard/BaseHTTPServer" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Simple_Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/thirty-part/PyQt5/menu_bar_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/standard/BaseHTTPServer/save_cookie.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="hello_world" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="get_http_header" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/thirty-part/PySide" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/standard/urllib" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Simple_Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/thirty-part/PySide/hello_world.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/standard/urllib/get_http_header.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="LCD_CLOCK_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="VerifyCode" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/thirty-part/PySide" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/thirty-part/Pillow" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Simple_Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/thirty-part/PySide/LCD_CLOCK_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/thirty-part/Pillow/VerifyCode.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -505,19 +526,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.Filter_view_1" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Main_window_1" />
-      <item index="2" class="java.lang.String" itemvalue="Python.dir_model_1" />
-      <item index="3" class="java.lang.String" itemvalue="Python.menu_bar_1" />
-      <item index="4" class="java.lang.String" itemvalue="Python.hello_world" />
-      <item index="5" class="java.lang.String" itemvalue="Python.LCD_CLOCK_1" />
+      <item index="1" class="java.lang.String" itemvalue="Python.simple_http_server" />
+      <item index="2" class="java.lang.String" itemvalue="Python.data_download_for_python" />
+      <item index="3" class="java.lang.String" itemvalue="Python.save_cookie" />
+      <item index="4" class="java.lang.String" itemvalue="Python.get_http_header" />
+      <item index="5" class="java.lang.String" itemvalue="Python.VerifyCode" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.LCD_CLOCK_1" />
-        <item index="1" class="java.lang.String" itemvalue="Python.hello_world" />
-        <item index="2" class="java.lang.String" itemvalue="Python.menu_bar_1" />
-        <item index="3" class="java.lang.String" itemvalue="Python.dir_model_1" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Main_window_1" />
+        <item index="0" class="java.lang.String" itemvalue="Python.VerifyCode" />
+        <item index="1" class="java.lang.String" itemvalue="Python.get_http_header" />
+        <item index="2" class="java.lang.String" itemvalue="Python.save_cookie" />
+        <item index="3" class="java.lang.String" itemvalue="Python.simple_http_server" />
+        <item index="4" class="java.lang.String" itemvalue="Python.data_download_for_python" />
       </list>
     </recent_temporary>
   </component>
@@ -554,13 +575,13 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3272727" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24816984" sideWeight="0.53287196" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15812592" sideWeight="0.62283736" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32846716" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46712804" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37716264" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.316609" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -584,46 +605,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/thirty-part/PyQt5/message_box.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="32" selection-start="537" selection-end="537" vertical-scroll-proportion="0.24460432" vertical-offset="172" max-vertical-offset="450" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thirty-part/postgresql/postgresql_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="51" selection-start="40" selection-end="67" vertical-scroll-proportion="0.04225352" vertical-offset="0" max-vertical-offset="355" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thirty-part/PyQt5/grid_layout_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="0" selection-end="43" vertical-scroll-proportion="0.22959183" vertical-offset="180" max-vertical-offset="645" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thirty-part/postgresql/postgresql_3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="45" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thirty-part/PyQt5/spinbox_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thirty-part/PyQt5/Box_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="64" selection-end="64" vertical-scroll-proportion="-1.2677596" vertical-offset="292" max-vertical-offset="570" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thirty-part/PyQt5/vboxLayout_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="68" selection-start="64" selection-end="143" vertical-scroll-proportion="0.16393442" vertical-offset="45" max-vertical-offset="435" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thirty-part/PyQt5/slide_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="25" selection-start="376" selection-end="376" vertical-scroll-proportion="0.4084507" vertical-offset="50" max-vertical-offset="555" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thirty-part/PyQt5/DesktopWidget_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405" />
@@ -651,28 +632,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/thirty-part/PyQt5/menu_bar_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="8" selection-start="482" selection-end="486" vertical-scroll-proportion="0.4" vertical-offset="85" max-vertical-offset="510">
-          <folding>
-            <element signature="e#64#74#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="17" column="8" selection-start="482" selection-end="486" vertical-scroll-proportion="0.4" vertical-offset="85" max-vertical-offset="510" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/thirty-part/PySide/hello_world.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="66" selection-end="150" vertical-scroll-proportion="0.21352313" vertical-offset="0" max-vertical-offset="390">
-          <folding>
-            <element signature="e#66#76#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="4" column="0" selection-start="66" selection-end="150" vertical-scroll-proportion="0.21352313" vertical-offset="0" max-vertical-offset="390" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/thirty-part/PySide/LCD_CLOCK_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="8" selection-start="653" selection-end="653" vertical-scroll-proportion="0.33096084" vertical-offset="222" max-vertical-offset="645">
-          <folding>
-            <element signature="e#65#75#0" expanded="true" />
-          </folding>
+        <state line="21" column="8" selection-start="653" selection-end="653" vertical-scroll-proportion="0.33096084" vertical-offset="222" max-vertical-offset="645" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standard/time/time_fact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="57" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standard/time/time_iter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="254" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standard/BaseHTTPServer/simple_http_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="0" selection-end="1348" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="765" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standard/BaseHTTPServer/data_download_for_python.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="23" selection-start="0" selection-end="1228" vertical-scroll-proportion="0.15607986" vertical-offset="169" max-vertical-offset="720" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standard/BaseHTTPServer/save_cookie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="26" selection-start="0" selection-end="987" vertical-scroll-proportion="0.26860255" vertical-offset="47" max-vertical-offset="615" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standard/urllib/get_http_header.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="35" selection-start="197" selection-end="197" vertical-scroll-proportion="0.31626505" vertical-offset="0" max-vertical-offset="332" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/binarty.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thirty-part/Pillow/VerifyCode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="42" selection-start="242" selection-end="242" vertical-scroll-proportion="0.3783784" vertical-offset="54" max-vertical-offset="450">
+          <folding />
         </state>
       </provider>
     </entry>

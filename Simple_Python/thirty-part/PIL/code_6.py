@@ -15,7 +15,7 @@ linecolor = (0,0,0)
 img = Image.new("RGB",(width,height),bgcolor)
 FONT = ImageFont.truetype("simple.ttf",32)
 FONT_COLOR = (0,0,0)
-draw = ImageDraw.Draw(img) 
+draw = ImageDraw.Draw(img)
 for i in xrange(1,time+1):
 	x=random.randint(0, 70)
 	y=random.randint(0, 20)

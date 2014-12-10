@@ -1,10 +1,10 @@
 <?php
-	//栏目类
+	/*
+	栏目类
+	 */
 	class Category extends DB{
-		//属性
 		public $table = 'category';
 
-		//方法
 		/*
 		 * 添加栏目方法
 		 * @param1 string $c_name 栏目名
@@ -14,10 +14,8 @@
 		 * @return boolean 成功返回true 失败返回false
 		*/
 		public function addCategory($c_name,$c_keywords,$c_content,$c_state){
-			//组织sql
 			$sql = "insert into {$this->getTablename()} (c_name,c_keywords,c_content,c_state) values('{$c_name}','{$c_keywords}','{$c_content}','{$c_state}')";
-
-			//调用DB执行
+			$sql=mysql_escape_string($sql);
 			return $this->db_insert($sql) ? true : false;
 		}
 
@@ -31,10 +29,8 @@
 			$pagesize = $GLOBALS['config']['pagesize'];
 			//获取起始位置
 			$start = ($page - 1) * $pagesize;
-			//组织sql
 			$sql = "select * from {$this->getTableName()} where c_is_delete = 1 limit {$start},{$pagesize}";
-			//调用DB执行
-
+			$sql=mysql_escape_string($sql);
 			return $this->db_getRows($sql);
 		}
 
@@ -44,11 +40,9 @@
 		*/
 
 		public function getCounts(){
-			//组织sql
 			$sql = "select count(*) cats from {$this->getTableName()} where c_is_delete = 1";
-			//调用DB执行
+			$sql=mysql_escape_string($sql);
 			$res = $this->db_getRow($sql);
-			//返回
 			return $res ? $res['cats'] : false;
 		}
 
@@ -59,14 +53,13 @@
 		 * @return boolean 成功返回true 失败返回false
 		*/
 		public function changeState($id,$state){
-			//组织sql
 			if($state == 0){
 				$state = 1;
 			}else{
 				$state = 0;	
 			}
 			$sql = "update {$this->getTableName()} set c_state = {$state} where c_id = {$id}";
-			//调用DB执行
+			$sql=mysql_escape_string($sql);
 			return $this->db_update($sql);
 		}
 
@@ -76,9 +69,8 @@
 		 * @return mixed 成功返回栏目信息数组 失败返回false
 		*/
 		public function editCategory($id){
-			//组织sql
 			$sql = "select * from {$this->getTableName()} where c_id = {$id}";
-			//调用DB执行
+			$sql=mysql_escape_string($sql);
 			return $this->db_getRow($sql);
 		}
 		
@@ -91,10 +83,8 @@
 		 * @return boolean 成功返回true 失败返回false
 		*/
 		public function updateCategory($c_id,$c_name,$c_keywords,$c_content){
-			//组织sql
 			$sql = "update {$this->getTableName()} set c_name = '{$c_name}',c_keywords = '{$c_keywords}',c_content = '{$c_content}' where c_id = {$c_id}";
-
-			//调用DB执行
+			$sql=mysql_escape_string($sql);
 			return $this->db_update($sql) ? true : false;
 		}
 
@@ -104,9 +94,8 @@
 		 * @return boolean 成功返回true 失败返回false 
 		*/
 		public function deleteCategory($id){
-			//组织sql
 			$sql = "update {$this->getTableName()} set c_is_delete = 0 where c_id = {$id}";
-			//调用DB执行
+			$sql=mysql_escape_string($sql);
 			return $this->db_update($sql);
 		}
         
@@ -116,15 +105,15 @@
 		 */
 		public function getCategoryName(){
 			$sql="select * from {$this->getTableName()} where c_is_delete = 1";
+			$sql=mysql_escape_string($sql);
 			return $this->db_getRows($sql);
 		}
 
 		public function getCatgoryById($c_id){
 			$sql="select * from {$this->getTableName()} where c_id = {$c_id} limit 1";
+			$sql=mysql_escape_string($sql);
 			return $this->db_getRows($sql);
 		}
 		
 	}
-
-
 ?>

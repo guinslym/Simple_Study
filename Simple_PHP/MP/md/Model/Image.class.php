@@ -1,21 +1,19 @@
 <?php
-	//图片处理类
+	/*
+	图片处理类,可以用于创建略缩图和水印
+	 */
 	class Image{
-		private $thumb_width;
-		private $thumb_height;
-		public $errorinfo;
-		private $image_type = array(
-			//由于下面要根据键进行判断，所以变成关联数组
+		private $thumb_width;                                //缩略图的宽度
+		private $thumb_height;                               //缩略图的高度
+		public $errorinfo;                                   //上传过程中可能出现的错误
+		private $image_type = array(                         //允许上传的图片类型
 			'gif' => 'gif',
 			'png' => 'png',
-			//jpg在函数中就是jpeg
 			'jpg' => 'jpeg',
 			'jpeg' => 'jpeg'
 		);
 
-		//构造方法初始化属性
 		public function __construct($width='',$height=''){
-			//判断用户是否传入参数
 			$this->thumb_width = empty($width) ? $GLOBALS['config']['goods_img_thumb_width'] : $width;
 			$this->thumb_height = empty($height) ? $GLOBALS['config']['goods_img_thumb_height'] : $height;
 		}
@@ -35,19 +33,15 @@
 		//strrpos获取后面参数最后出现的位置
 		$extension = substr($file,strrpos($file,'.')+1);
 		
-		//判断
 		if(!array_key_exists($extension,$this->image_type)){
 			$this->errorinfo = '不是一个有效的图片！';
 			return false;
 		}
-			//缩略图制作
-			//1.获取原图资源
-			//知道使用哪个函数
+			//创建给定类型的画布
 			$imagecreate ='imagecreatefrom' . $this->image_type[$extension];
-			//将各种不同的图片格式输出到浏览器上
+			//保存的图片类型
 			$imagesave = 'image' . $this->image_type[$extension];
 			
-			//利用可变函数获取图片资源
 			$src = $imagecreate($file);
 
 			//创建缩略图资源
@@ -97,7 +91,6 @@
 				return false;
 			}
 
-			//制作水印
 			//1.		获取图片资源
 			$dstcreate = 'imagecreatefrom' . $this->image_type[$extension];
 			$watercreate = 'imagecreatefrom' . $this->image_type[$water_ext];
@@ -111,7 +104,7 @@
 			$dstinfo = getimagesize($file);
 			$watinfo = getimagesize($water);
 
-			//4.		计算水印在原图的坐标
+			//4.		计算水印在原图的位置
 			switch($position){
 				case 1:
 					//左上角
@@ -138,20 +131,15 @@
 
 			//5.		采样合并
 			if(imagecopymerge($dst,$wat,$start_x,$start_y,0,0,$watinfo[0],$watinfo[1],$pct)){
-				//合并成功，返回图片路径
 				$name = 'water_' . basename($file);
-				//销毁资源
 				if($dstsave($dst,ADMIN_UPL . '/' . $name)){
-					//成功
 					imagedestroy($dst);
 					imagedestroy($wat);
 					return './uploads/' . $name;
 				}else{
-					//失败
 					$this->errorinfo = '水印图片保存失败！';
 				}
 			}else{
-				//合并失败
 				$this->errorinfo = '水印图片合并失败！';
 
 			}

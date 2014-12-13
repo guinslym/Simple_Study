@@ -2,7 +2,7 @@
 #-*- coding:utf-8 -*-
 
 from PIL import Image, ImageFont, ImageDraw
-import random,sys
+import random
 
 
 class VerifyCode:
@@ -54,5 +54,5 @@ class VerifyCode:
 		self.im.save('verify.png')
 
 if __name__ == '__main__':
-	verify=VerifyCode()
+	verify=VerifyCode(100,50)
 	verify.generate()

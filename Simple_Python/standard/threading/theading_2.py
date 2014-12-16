@@ -8,7 +8,7 @@ class ThreadFunc(object):
 		self.name=name
 		self.func=func
 		self.arg = arg
-	
+
 	def __call__(self):
 			apply(self.func,self.arg)
 

@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1032b550-1af7-410a-b9d6-0c6edd606041" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/standard/BaseHTTPServer/data_download_for_python.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/standard/urllib/get_http_header.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/standard/BaseHTTPServer/save_cookie.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/standard/BaseHTTPServer/simple_http_server.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Simple_PHP/MP/md/Model/Category.class.php" afterPath="$PROJECT_DIR$/../Simple_PHP/MP/md/Model/Category.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Simple_PHP/MP/md/Model/Image.class.php" afterPath="$PROJECT_DIR$/../Simple_PHP/MP/md/Model/Image.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Simple_PHP/MP/md/Model/Session.class.php" afterPath="$PROJECT_DIR$/../Simple_PHP/MP/md/Model/Session.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Simple_Python.iml" afterPath="$PROJECT_DIR$/.idea/Simple_Python.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Simple_PHP/MP/md/Model/Upload.class.php" afterPath="$PROJECT_DIR$/../Simple_PHP/MP/md/Model/Upload.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Simple_PHP/MP/md/Core/init.class.php" afterPath="$PROJECT_DIR$/../Simple_PHP/MP/md/Core/init.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thirty-part/PycURL/server.py" afterPath="$PROJECT_DIR$/thirty-part/PycURL/server.py" />
     </list>
     <ignored path="Simple_Python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,17 +14,17 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Simple_Python$test.coverage" NAME="test Coverage Results" MODIFIED="1415861737232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Simple_Python$test.coverage" NAME="test Coverage Results" MODIFIED="1418543186949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Simple_Python$menu_1.coverage" NAME="menu_1 Coverage Results" MODIFIED="1412582977470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
     <SUITE FILE_PATH="coverage/Simple_Python$widget_2.coverage" NAME="widget_2 Coverage Results" MODIFIED="1412955280432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
     <SUITE FILE_PATH="coverage/Simple_Python$button_1.coverage" NAME="button_1 Coverage Results" MODIFIED="1412573809810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
-    <SUITE FILE_PATH="coverage/Simple_Python$VerifyCode.coverage" NAME="VerifyCode Coverage Results" MODIFIED="1418203286742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/Pillow" />
     <SUITE FILE_PATH="coverage/Simple_Python$widget_5.coverage" NAME="widget_5 Coverage Results" MODIFIED="1412992537002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
+    <SUITE FILE_PATH="coverage/Simple_Python$VerifyCode.coverage" NAME="VerifyCode Coverage Results" MODIFIED="1418203286742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/Pillow" />
     <SUITE FILE_PATH="coverage/Simple_Python$checkbox_1.coverage" NAME="checkbox_1 Coverage Results" MODIFIED="1412574289436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
-    <SUITE FILE_PATH="coverage/Simple_Python$grid_layout_1.coverage" NAME="grid_layout_1 Coverage Results" MODIFIED="1413079701617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
     <SUITE FILE_PATH="coverage/Simple_Python$vboxLayout_1.coverage" NAME="vboxLayout_1 Coverage Results" MODIFIED="1413013998117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
-    <SUITE FILE_PATH="coverage/Simple_Python$widget_3.coverage" NAME="widget_3 Coverage Results" MODIFIED="1412955561898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
+    <SUITE FILE_PATH="coverage/Simple_Python$grid_layout_1.coverage" NAME="grid_layout_1 Coverage Results" MODIFIED="1413079701617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
     <SUITE FILE_PATH="coverage/Simple_Python$time_iter.coverage" NAME="time_iter Coverage Results" MODIFIED="1415880190112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/standard/time" />
+    <SUITE FILE_PATH="coverage/Simple_Python$widget_3.coverage" NAME="widget_3 Coverage Results" MODIFIED="1412955561898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
     <SUITE FILE_PATH="coverage/Simple_Python$Box_1.coverage" NAME="Box_1 Coverage Results" MODIFIED="1412994066025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
     <SUITE FILE_PATH="coverage/Simple_Python$signalSlot_1.coverage" NAME="signalSlot_1 Coverage Results" MODIFIED="1413016342219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
     <SUITE FILE_PATH="coverage/Simple_Python$button_2.coverage" NAME="button_2 Coverage Results" MODIFIED="1413081657573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
@@ -50,21 +40,21 @@
     <SUITE FILE_PATH="coverage/Simple_Python$LCD_CLOCK_1.coverage" NAME="LCD_CLOCK_1 Coverage Results" MODIFIED="1413191444484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PySide" />
     <SUITE FILE_PATH="coverage/Simple_Python$spinbox_1.coverage" NAME="spinbox_1 Coverage Results" MODIFIED="1412575380198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
     <SUITE FILE_PATH="coverage/Simple_Python$image_2.coverage" NAME="image_2 Coverage Results" MODIFIED="1412949716269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/Pillow" />
-    <SUITE FILE_PATH="coverage/Simple_Python$socket_6.coverage" NAME="socket_6 Coverage Results" MODIFIED="1412946386224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/standard/socket" />
     <SUITE FILE_PATH="coverage/Simple_Python$data_download_for_python.coverage" NAME="data_download_for_python Coverage Results" MODIFIED="1417226621710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/standard/BaseHTTPServer" />
-    <SUITE FILE_PATH="coverage/Simple_Python$widget_1.coverage" NAME="widget_1 Coverage Results" MODIFIED="1412953979483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
+    <SUITE FILE_PATH="coverage/Simple_Python$socket_6.coverage" NAME="socket_6 Coverage Results" MODIFIED="1412946386224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/standard/socket" />
     <SUITE FILE_PATH="coverage/Simple_Python$socket_4.coverage" NAME="socket_4 Coverage Results" MODIFIED="1412944748394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/standard/socket" />
+    <SUITE FILE_PATH="coverage/Simple_Python$widget_1.coverage" NAME="widget_1 Coverage Results" MODIFIED="1412953979483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
     <SUITE FILE_PATH="coverage/Simple_Python$combobox_1.coverage" NAME="combobox_1 Coverage Results" MODIFIED="1412574569195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
     <SUITE FILE_PATH="coverage/Simple_Python$socket_7.coverage" NAME="socket_7 Coverage Results" MODIFIED="1412947193382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/standard/socket" />
     <SUITE FILE_PATH="coverage/Simple_Python$tabbar_1.coverage" NAME="tabbar_1 Coverage Results" MODIFIED="1412663422394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
     <SUITE FILE_PATH="coverage/Simple_Python$calendar_1.coverage" NAME="calendar_1 Coverage Results" MODIFIED="1412580385484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
-    <SUITE FILE_PATH="coverage/Simple_Python$Main_window_1.coverage" NAME="Main_window_1 Coverage Results" MODIFIED="1413088875051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
     <SUITE FILE_PATH="coverage/Simple_Python$postgresql_4.coverage" NAME="postgresql_4 Coverage Results" MODIFIED="1413080502517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/postgresql" />
+    <SUITE FILE_PATH="coverage/Simple_Python$Main_window_1.coverage" NAME="Main_window_1 Coverage Results" MODIFIED="1413088875051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
     <SUITE FILE_PATH="coverage/Simple_Python$label_1.coverage" NAME="label_1 Coverage Results" MODIFIED="1413012042512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
     <SUITE FILE_PATH="coverage/Simple_Python$signal_1.coverage" NAME="signal_1 Coverage Results" MODIFIED="1413016654031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
     <SUITE FILE_PATH="coverage/Simple_Python$hello_world.coverage" NAME="hello_world Coverage Results" MODIFIED="1413190562538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PySide" />
-    <SUITE FILE_PATH="coverage/Simple_Python$Filter_view_1.coverage" NAME="Filter_view_1 Coverage Results" MODIFIED="1413091333309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
     <SUITE FILE_PATH="coverage/Simple_Python$message_box.coverage" NAME="message_box Coverage Results" MODIFIED="1412957900297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
+    <SUITE FILE_PATH="coverage/Simple_Python$Filter_view_1.coverage" NAME="Filter_view_1 Coverage Results" MODIFIED="1413091333309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
     <SUITE FILE_PATH="coverage/Simple_Python$postgresql_3.coverage" NAME="postgresql_3 Coverage Results" MODIFIED="1413074335105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/postgresql" />
     <SUITE FILE_PATH="coverage/Simple_Python$slide_1.coverage" NAME="slide_1 Coverage Results" MODIFIED="1413084528154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
     <SUITE FILE_PATH="coverage/Simple_Python$menu_bar_1.coverage" NAME="menu_bar_1 Coverage Results" MODIFIED="1413161664267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thirty-part/PyQt5" />
@@ -86,7 +76,17 @@
     <favorites_list name="Simple_Python" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="test.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="19" selection-start="343" selection-end="343" vertical-scroll-proportion="0.4954955" vertical-offset="0" max-vertical-offset="420">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -170,7 +170,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -189,40 +188,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Simple_Python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Simple_Python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thirty-part" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Simple_Python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Simple_Python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thirty-part" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pillow" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,17 +207,17 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="136" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="933" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="933" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="933" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="136" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="134" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -259,7 +227,7 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.VerifyCode">
+  <component name="RunManager" selected="Python.test">
     <configuration default="false" name="simple_http_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -274,25 +242,6 @@
       <module name="Simple_Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/standard/BaseHTTPServer/simple_http_server.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="data_download_for_python" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/standard/BaseHTTPServer" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Simple_Python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/standard/BaseHTTPServer/data_download_for_python.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -350,6 +299,25 @@
       <module name="Simple_Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/thirty-part/Pillow/VerifyCode.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Simple_Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -439,9 +407,6 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
-      <method />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -463,6 +428,9 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -527,18 +495,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.Filter_view_1" />
       <item index="1" class="java.lang.String" itemvalue="Python.simple_http_server" />
-      <item index="2" class="java.lang.String" itemvalue="Python.data_download_for_python" />
-      <item index="3" class="java.lang.String" itemvalue="Python.save_cookie" />
-      <item index="4" class="java.lang.String" itemvalue="Python.get_http_header" />
-      <item index="5" class="java.lang.String" itemvalue="Python.VerifyCode" />
+      <item index="2" class="java.lang.String" itemvalue="Python.save_cookie" />
+      <item index="3" class="java.lang.String" itemvalue="Python.get_http_header" />
+      <item index="4" class="java.lang.String" itemvalue="Python.VerifyCode" />
+      <item index="5" class="java.lang.String" itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.VerifyCode" />
-        <item index="1" class="java.lang.String" itemvalue="Python.get_http_header" />
-        <item index="2" class="java.lang.String" itemvalue="Python.save_cookie" />
-        <item index="3" class="java.lang.String" itemvalue="Python.simple_http_server" />
-        <item index="4" class="java.lang.String" itemvalue="Python.data_download_for_python" />
+        <item index="0" class="java.lang.String" itemvalue="Python.test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.VerifyCode" />
+        <item index="2" class="java.lang.String" itemvalue="Python.get_http_header" />
+        <item index="3" class="java.lang.String" itemvalue="Python.save_cookie" />
+        <item index="4" class="java.lang.String" itemvalue="Python.simple_http_server" />
       </list>
     </recent_temporary>
   </component>
@@ -577,7 +545,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15812592" sideWeight="0.62283736" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15812592" sideWeight="0.62283736" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32846716" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -680,9 +648,9 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thirty-part/Pillow/VerifyCode.py">
+    <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="42" selection-start="242" selection-end="242" vertical-scroll-proportion="0.3783784" vertical-offset="54" max-vertical-offset="450">
+        <state line="16" column="19" selection-start="343" selection-end="343" vertical-scroll-proportion="0.4954955" vertical-offset="0" max-vertical-offset="420">
           <folding />
         </state>
       </provider>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>设置属性</title>
+	<script type="text/javascript" src="style.js"></script>
+	<style type="text/css">
+	.red {width: 100px;height: 100px;background: red;}
+	.green {width: 200px;height: 200px;background: green;}
+	.w200 {width: 200px;}
+	</style>
+</head>
+<body>
+	<div>
+		<h3>div的属性</h3>
+		<span>hello</span>
+	</div>
+</body>
+<script type="text/javascript">
+	var div=document.querySelector('div');
+	setAttr(div,'class','red');
+	console.log(getClassName(div));
+	addClass(div,'w200');
+	console.log(val(div));
+	//val(div,'<h1>这是1个传说</h1><p>world</p>');
+	console.log(children(div));
+	console.log(childCount(div));
+</script>
+</html>

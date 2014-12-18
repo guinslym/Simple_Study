@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>type类型检测</title>
+	<script type="text/javascript" src='type.js'></script>
+</head>
+<body>
+	<div>Type类型测试</div>
+</body>
+<script type="text/javascript">
+	var div=document.querySelector('div');
+	console.log(type(div));                //object
+
+	var fun=function(){
+		var a=1;
+        return a;
+	};
+	console.log(isFunction(fun));         //fasle
+	console.log(isObject(fun));           //true
+    
+	console.log(isArray([]));             //true
+	console.log(isObject(null));          //true
+	console.log(isString(''));            //true
+	console.log(isNumber(1));             //true
+</script>
+</html>

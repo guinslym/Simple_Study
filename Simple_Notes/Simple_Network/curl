@@ -1,0 +1,164 @@
+tim@tim-pc:~$ curl --help
+Usage: curl [options...] <url>
+Options: (H) means HTTP/HTTPS only, (F) means FTP only
+     --anyauth       Pick "any" authentication method (H)，采用any验证方法
+ -a, --append        Append to target file when uploading (F/SFTP),在目标文件上传时插入到尾部
+     --basic         Use HTTP Basic Authentication (H),使用HTTP基本权限
+     --cacert FILE   CA certificate to verify peer against (SSL)，CA证书验证
+     --capath DIR    CA directory to verify peer against (SSL)，CA验证目录
+ -E, --cert CERT[:PASSWD] Client certificate file and password (SSL)，客户端证书文件和密码
+     --cert-type TYPE Certificate file type (DER/PEM/ENG) (SSL)，客户端证书文件类型
+     --ciphers LIST  SSL ciphers to use (SSL)，使用SSL组合密文
+     --compressed    Request compressed response (using deflate or gzip)，请求的压缩响应
+ -K, --config FILE   Specify which config file to read，读取配置文件
+     --connect-timeout SECONDS  Maximum time allowed for connection，最大允许连接时间
+ -C, --continue-at OFFSET  Resumed transfer offset，断点续传
+ -b, --cookie STRING/FILE  String or file to read cookies from (H)，读取时的cookie文件或字符串
+ -c, --cookie-jar FILE  Write cookies to this file after operation (H)，在运行后将cookie写入到该文件
+     --create-dirs   Create necessary local directory hierarchy，创建必要的本地目录
+     --crlf          Convert LF to CRLF in upload，在上传中将LF转化为CRLF
+     --crlfile FILE  Get a CRL list in PEM format from the given file
+ -d, --data DATA     HTTP POST data (H),HTTP协议POST的数据
+     --data-ascii DATA  HTTP POST ASCII data (H)，HTTP协议POST的ASCII数据
+     --data-binary DATA  HTTP POST binary data (H)，HTTP协议POST的二进制数据
+     --data-urlencode DATA  HTTP POST data url encoded (H)，对POST数据进行url编码
+     --delegation STRING GSS-API delegation permission，GSS-API派遣权限
+     --digest        Use HTTP Digest Authentication (H)，使用HTTP动态验证
+     --disable-eprt  Inhibit using EPRT or LPRT (F)，禁止使用EPRT或PRT
+     --disable-epsv  Inhibit using EPSV (F)，禁止使用EPSV
+     --dns-servers    DNS server addrs to use: 1.1.1.1;2.2.2.2，使用DNS服务器地址
+     --dns-interface  Interface to use for DNS requests，内置DNS请求接口
+     --dns-ipv4-addr  IPv4 address to use for DNS requests, dot notation，DNS请求的IPv4地址，使用圆点计法
+     --dns-ipv6-addr  IPv6 address to use for DNS requests, dot notation，DNS请求的IPv6地址，使用圆点记法
+ -D, --dump-header FILE  Write the headers to this file，将表头信息写入到该文件
+     --egd-file FILE  EGD socket path for random data (SSL)，随机数据的EGD socket路径
+     --engine ENGINE  Crypto engine (SSL). "--engine list" for list，Cryto进制
+ -f, --fail          Fail silently (no output at all) on HTTP errors (H)，在HTTP错误时静默处理
+ -F, --form CONTENT  Specify HTTP multipart POST data (H)，HTTP多部分POST（提交）数据
+     --form-string STRING  Specify HTTP multipart POST data (H)，HTTP多数据提交
+     --ftp-account DATA  Account data string (F)，用户数据字符串
+     --ftp-alternative-to-user COMMAND  String to replace "USER [name]" (F)，用于取代用户名的字符串
+     --ftp-create-dirs  Create the remote dirs if not present (F)，如果不存在则创建远程路径
+     --ftp-method [MULTICWD/NOCWD/SINGLECWD] Control CWD usage (F)，CWD控制用法
+     --ftp-pasv      Use PASV/EPSV instead of PORT (F)，使用PASV/EPSV代替端口
+ -P, --ftp-port ADR  Use PORT with given address instead of PASV (F)，使用给定地址的端口代替PASV
+     --ftp-skip-pasv-ip Skip the IP address for PASV (F)，PAV跳过给定IP地址
+     --ftp-pret      Send PRET before PASV (for drftpd) (F)，在PASV前发送PRET
+     --ftp-ssl-ccc   Send CCC after authenticating (F)，在验证后发送CCC
+     --ftp-ssl-ccc-mode ACTIVE/PASSIVE  Set CCC mode (F)，设置CCC模式
+     --ftp-ssl-control Require SSL/TLS for ftp login, clear for transfer (F)，请求用于ftp登陆的SSL/TLS，清除传输
+ -G, --get           Send the -d data with a HTTP GET (H)，使用HTTP GET方法发送-d属性的数据
+ -g, --globoff       Disable URL sequences and ranges using {} and []，禁止URL队列使用{}和[]
+ -H, --header LINE   Custom header to pass to server (H)，发送给服务器自定义HTTP头部
+ -I, --head          Show document info only，只显示HTTP内容信息
+ -h, --help          This help text，帮助文档
+     --hostpubmd5 MD5  Hex encoded MD5 string of the host public key. (SSH)，主机公钥MD5字符串的16进制编码
+ -0(数字0), --http1.0       Use HTTP 1.0 (H)，使用HTTP 1.0协议
+     --http1.1       Use HTTP 1.1 (H)，使用HTTP 1.1协议
+     --http2.0       Use HTTP 2.0 (H)，使用HTTP 2.0协议
+     --ignore-content-length  Ignore the HTTP Content-Length header,忽略HTTP协议中头部的Content-Length
+ -i, --include       Include protocol headers in the output (H/F),在输出中包含头部的端口
+ -k, --insecure      Allow connections to SSL sites without certs (H)，允许无证书链接SSL站点
+     --interface INTERFACE  Specify network interface/address to use，说明，使用网络接口/地址
+ -4, --ipv4          Resolve name to IPv4 address，转换名字为IPv4地址
+ -6, --ipv6          Resolve name to IPv6 address，转换名字为IPv6地址
+ -j, --junk-session-cookies Ignore session cookies read from file (H)，忽略读取文件中的session和cookie
+     --keepalive-time SECONDS  Interval between keepalive probes，探测keepalive之间的间隔
+     --key KEY       Private key file name (SSL/SSH),私匙文件名
+     --key-type TYPE Private key file type (DER/PEM/ENG) (SSL)，私匙文件类型
+     --krb LEVEL     Enable Kerberos with specified security level (F)，开启Kerberos的安全级别
+     --libcurl FILE  Dump libcurl equivalent code of this command line，在该命令行输出与libcurl库等效的代码
+     --limit-rate RATE  Limit transfer speed to this rate，限制传输速度到该比率
+ -l, --list-only     List only mode (F/POP3)，列出模式
+     --local-port RANGE  Force use of these local port numbers，使用本地端口数字
+ -L, --location      Follow redirects (H)，允许重定向
+     --location-trusted like --location and send auth to other hosts (H)，类似--location,发送到其他主机
+ -M, --manual        Display the full manual，显示完整的手册
+     --mail-from FROM  Mail from this address (SMTP)，该地址的Mail
+     --mail-rcpt TO  Mail to this/these addresses (SMTP)，发送Mail到该地址
+     --mail-auth AUTH  Originator address of the original email (SMTP)，Mail的原始地址
+     --max-filesize BYTES  Maximum file size to download (H/F)，文件最大下载大小
+     --max-redirs NUM  Maximum number of redirects allowed (H)，最大允许重定向的数量
+ -m, --max-time SECONDS  Maximum time allowed for the transfer，最大允许的传输时间
+     --metalink      Process given URLs as metalink XML file，给定URL进程与XML文件元连接一样
+     --negotiate     Use HTTP Negotiate Authentication (H)，使用HTTP协商验证
+ -n, --netrc         Must read .netrc for user name and password，必须读取.netrc，用于用户名和密码
+     --netrc-optional Use either .netrc or URL; overrides -n
+     --netrc-file FILE  Set up the netrc filename to use
+ -N, --no-buffer     Disable buffering of the output stream，禁止输出流的块
+     --no-keepalive  Disable keepalive use on the connection，禁止长连接
+     --no-sessionid  Disable SSL session-ID reusing (SSL)，禁止重用SSL的session-ID
+     --noproxy       List of hosts which do not use proxy，列出没有使用代理的主机
+     --ntlm          Use HTTP NTLM authentication (H),使用HTTP NTLM验证
+     --oauth2-bearer TOKEN  OAuth 2 Bearer Token (IMAP, POP3, SMTP)
+ -o, --output FILE   Write output to <file> instead of stdout，将输出写入到文件，而不是标准输出流(显示在屏幕上)
+     --pass PASS     Pass phrase for the private key (SSL/SSH)，输入私钥的口令密码
+     --post301       Do not switch to GET after following a 301 redirect (H)，在获取到301重定向后不跳转
+     --post302       Do not switch to GET after following a 302 redirect (H)，在获取到302重定向后不跳转
+     --post303       Do not switch to GET after following a 303 redirect (H)，在获取到303重定向后不跳转
+ -#, --progress-bar  Display transfer progress as a progress bar，显示传输进度为进度条
+     --proto PROTOCOLS  Enable/disable specified protocols，开启或关闭端口说明
+     --proto-redir PROTOCOLS  Enable/disable specified protocols on redirect，开启或关闭跳转端口说明
+ -x, --proxy [PROTOCOL://]HOST[:PORT] Use proxy on given port，在给定的端口上使用代理
+     --proxy-anyauth Pick "any" proxy authentication method (H)，使用任何代理验证方法
+     --proxy-basic   Use Basic authentication on the proxy (H),在代理上使用基本验证
+     --proxy-digest  Use Digest authentication on the proxy (H)，在代理上使用Digest验证
+     --proxy-negotiate Use Negotiate authentication on the proxy (H)，在代理上使用Negotiate（协商）认证
+     --proxy-ntlm    Use NTLM authentication on the proxy (H)，在代理上使用NTLM验证
+ -U, --proxy-user USER[:PASSWORD]  Proxy user and password，代理的用户名和密码
+     --proxy1.0 HOST[:PORT]  Use HTTP/1.0 proxy on given port，在给定端口使用HTTP 1.0/1.1代理
+ -p, --proxytunnel   Operate through a HTTP proxy tunnel (using CONNECT)，通过HTTP代理隧道进行操作
+     --pubkey KEY    Public key file name (SSH)，公钥文件名
+ -Q, --quote CMD     Send command(s) to server before transfer (F/SFTP)，在传输前向服务器发送命令
+     --random-file FILE  File for reading random data from (SSL)，读取SSL文件中的随机数据
+ -r, --range RANGE   Retrieve only the bytes within a range，只接受指定范围内的字节
+     --raw           Do HTTP "raw", without any transfer decoding (H)，使用HTTP原始代码，没有任何传输转码
+ -e, --referer       Referer URL (H)，引用的URL
+ -J, --remote-header-name Use the header-provided filename (H)，使用HTTP头部提供的文件名
+ -O, --remote-name   Write output to a file named as the remote file，将输出文件的名设置与远程文件名一致
+     --remote-name-all Use the remote file name for all URLs，所有URL都使用远程文件名
+ -R, --remote-time   Set the remote file's time on the local output，设置本地输出为远程文件的时间
+ -X, --request COMMAND  Specify request command to use，说明使用的请求命令
+     --resolve HOST:PORT:ADDRESS  Force resolve of HOST:PORT to ADDRESS，转换主机名(端口到地址)
+     --retry NUM   Retry request NUM times if transient problems occur，当传输问题发生时重试请求NUM次
+     --retry-delay SECONDS When retrying, wait this many seconds between each，当重试时等待的秒数
+     --retry-max-time SECONDS  Retry only within this period，只在这个时间段重试
+     --sasl-ir       Enable initial response in SASL authentication，SASL验证时开启初始响应
+ -S, --show-error    Show error. With -s, make curl show errors when they occur，显示错误，加上-s选项可以让curl在错误发生时显示
+ -s, --silent        Silent mode. Don't output anything，静默模式，不输出任何东西
+     --socks4 HOST[:PORT]  SOCKS4 proxy on given host + port，SOCK4代理给定的主机和端口
+     --socks4a HOST[:PORT]  SOCKS4a proxy on given host + port，SOCK4a代理给定的主机和端口
+     --socks5 HOST[:PORT]  SOCKS5 proxy on given host + port,，SOCK5代理给定的主机和端口
+     --socks5-hostname HOST[:PORT] SOCKS5 proxy, pass host name to proxy，SOCKS5代理，传输主机名到代理服务器
+     --socks5-gssapi-service NAME  SOCKS5 proxy service name for gssapi,用gssapi为SOCKS5代理服务名
+     --socks5-gssapi-nec  Compatibility with NEC SOCKS5 server，与NEC SOCKS5服务器一致
+ -Y, --speed-limit RATE  Stop transfers below speed-limit for 'speed-time' secs，在每秒speed-time时停止传输
+ -y, --speed-time SECONDS  Time for trig speed-limit abort. Defaults to 30，中断的时间，默认是30
+     --ssl           Try SSL/TLS (FTP, IMAP, POP3, SMTP)，尝试SSL/TLS
+     --ssl-reqd      Require SSL/TLS (FTP, IMAP, POP3, SMTP)，请求SSL/TLS
+ -2, --sslv2         Use SSLv2 (SSL)，使用SSLv2
+ -3, --sslv3         Use SSLv3 (SSL),使用SSLv3
+     --ssl-allow-beast Allow security flaw to improve interop (SSL),可以容忍安全中的小问题
+     --stderr FILE   Where to redirect stderr. - means stdout，重定向标准错误流到哪里，意味着输出
+     --tcp-nodelay   Use the TCP_NODELAY option，使用TCP_NODELAY选项
+ -t, --telnet-option OPT=VAL  Set telnet option，设置telnet选项
+     --tftp-blksize VALUE  Set TFTP BLKSIZE option (must be >512)，设置TFTP BLKSIZE选项
+ -z, --time-cond TIME  Transfer based on a time condition，根据时间调试传输
+ -1, --tlsv1         Use TLSv1 (SSL)，使用TLSv1
+     --trace FILE    Write a debug trace to the given file，写入1个调试的追溯到给定文件
+     --trace-ascii FILE  Like --trace but without the hex output，类似--trace选项但是但不输出16进制
+     --trace-time    Add time stamps to trace/verbose output，添加时间戳到输出的Track(追溯)中
+     --tr-encoding   Request compressed transfer encoding (H)，请求传输压缩的编码
+ -T, --upload-file FILE  Transfer FILE to destination，传输文件到目的地
+     --url URL       URL to work with，工作的URL
+ -B, --use-ascii     Use ASCII/text transfer，使用ASCII/text传输
+ -u, --user USER[:PASSWORD][;OPTIONS]  Server user, password and login options。服务器用户，密码和登陆选项
+     --tlsuser USER  TLS username，TLS用户名
+     --tlspassword STRING TLS password，TLS密码
+     --tlsauthtype STRING  TLS authentication type (default SRP)，TLS验证选项,默认是SRP
+ -A, --user-agent STRING  User-Agent to send to server (H)，发送HTTP中的User-Agent到服务器
+ -v, --verbose       Make the operation more talkative，使操作更加详细
+ -V, --version       Show version number and quit，显示版本信息并离开
+ -w, --write-out FORMAT  What to output after completion，在完成后输出什么
+     --xattr        Store metadata in extended file attributes，储存元数据在扩充的文件属性
+ -q                 If used as the first parameter disables .curlrc，如果是第1个参数则禁止.curlrc

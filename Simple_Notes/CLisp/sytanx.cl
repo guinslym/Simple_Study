@@ -1,0 +1,31 @@
+; SLIME 2014-08-01
+CL-USER> (eq 'foo 'FoO)
+T
+CL-USER> (expt 2 10)
+1024
+CL-USER> (princ "Tutti Frutti")
+Tutti Frutti
+"Tutti Frutti"
+CL-USER> '(expr 2 10)
+(EXPR 2 10)
+CL-USER> (cons 'chicken 'cat)
+(CHICKEN . CAT)
+CL-USER> (cons 'port '(beef chicken))
+(PORT BEEF CHICKEN)
+CL-USER> (cons 'beef (cons 'chicken ()))
+(BEEF CHICKEN)
+CL-USER> (cons 'pork (cons 'beef (cons 'chicken ())))
+(PORK BEEF CHICKEN)
+CL-USER> (cons 'port (cons 'beef (cons 'chicken 'nil)))
+(PORT BEEF CHICKEN)
+CL-USER> (cons 'chicken (cons 'cat 'nil))
+(CHICKEN CAT)
+CL-USER> (cons 'chicken (cons 'cat 'dog))
+(CHICKEN CAT . DOG)
+CL-USER> (cons 'chicken (cons 'cat '(list 'dog 'pig)))
+(CHICKEN CAT LIST 'DOG 'PIG)
+CL-USER>  (cons 'chicken (cons 'cat (list 'dog 'pig)))
+(CHICKEN CAT DOG PIG)
+CL-USER> (list 'port 'beef 'chicken)
+(PORT BEEF CHICKEN)
+CL-USER> 

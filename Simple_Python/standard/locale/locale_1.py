@@ -1,5 +1,5 @@
+#! /usr/bin/env/python
 # -*- coding:utf-8 -*-
-# /usr/bin/env/python
 
 import locale
 import os
@@ -38,4 +38,4 @@ Monetary formatting:
   Grouping positions                  :%(mon_grouping)s
   Thousands separator                 :"%(mon_thousands_seq)s"
   Positive sign                       :"%(positions_sign)s"
-  
+"""

@@ -1,3 +1,7 @@
+#! /usr/bin/env/python
+# -*- coding:utf-8 -*-
+
 import subprocess
 
-subprocess.call(["ls","-1"])
+# Simple command
+subprocess.call(['ls','-l'])

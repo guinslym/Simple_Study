@@ -1,18 +1,15 @@
+#! /usr/bin/env/python
+# -*- coding:utf-8 -*-
+
 import tarfile
+import time
 from contextlib import closing
 
-print "Creating archive"
-with closing(tarfile.open("test.tar",mode="w")) as out:
-    out.add("test.txt")
-
-print "contents:",
-with closing(tarfile.open("test.tar",mode="r")) as t:
-    print [m.name for m in t.getmembers()]
-
-print "adding index.rst"
-with closing(tarfile.open("test.tar",mode="a")) as out:
-    out.add("weather.xml")
-
-print "contents:"
-with closing(tarfile.open("test.tar",mode="r")) as t:
-    print [m.name for m in t.getmembers()]
+with closing(tarfile.open('example.tar','r')) as t:
+    for filename in ['file.csv']:
+        try:
+            info = t.getmember(filename)
+        except KeyError:
+            print 'ERROR:Did not find %s in tar archive' % filename
+        else:
+            print '%s is %d bytes' % (info.name,info.size)

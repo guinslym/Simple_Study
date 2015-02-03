@@ -1,7 +1,9 @@
+#! /usr/bin/env/python
+# -*- coding:utf-8 -*-
+
 import hashlib
+from hashlib_data import lorem
 
-data="This is the example about hashlib"
-h=hashlib.sha1()
-h.update(data)
+h = hashlib.sha1()
+h.update(lorem)
 print h.hexdigest()
-

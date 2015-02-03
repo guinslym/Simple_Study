@@ -1,10 +1,15 @@
+#! /usr/bin/env/python
+# -*- coding:utf-8 -*-
 import zlib
 
-data=open("test.txt","r").read()
-cksum=zlib.adler32(data)
-print "Adler32:%12d" %cksum
-print "       :%12d" % zlib.adler32(data,cksum)
+mydata="This is the original text."
 
-cksum-zlib.crc32(data)
-print "Crc-32:%12d" %cksum
-print "      :%12d" % zlib.crc32(data,cksum)
+fmt="%15s %15s"
+print fmt %("len(data}","len(compressed")
+print fmt %("-"*15,"-"*15)
+
+for i in xrange(5):
+    data = mydata*i
+    compressed=zlib.compress(data)
+    highlight="*" if len(data)<len(compressed) else ""
+    print fmt % (len(data),len(compressed)),highlight

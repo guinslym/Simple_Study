@@ -1,13 +1,14 @@
+#! /usr/bin/env/python
+# -*- coding:utf-8 -*-
+
 import zlib
+import binascii
 
-mydata="This is the original text."
+original_data = 'This is the original text.'
+print 'Original  :',len(original_data),original_data
 
-fmt="%15s %15s"
-print fmt %("len(data}","len(compressed")
-print fmt %("-"*15,"-"*15)
+compressed = zlib.compress(original_data)
+print 'Compressed :',len(compressed),binascii.hexlify(compressed)
 
-for i in xrange(5):
-    data = mydata*i
-    compressed=zlib.compress(data)
-    highlight="*" if len(data)<len(compressed) else ""
-    print fmt % (len(data),len(compressed)),highlight
+decompressed = zlib.decompress(compressed)
+print 'Decompressed:',len(decompressed),decompressed

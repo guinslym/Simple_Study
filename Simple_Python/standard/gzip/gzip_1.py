@@ -1,3 +1,6 @@
+#! /usr/bin/env/python
+# -*- coding:utf-8 -*-
+
 import gzip
 import os
 filename="test.txt.gz"

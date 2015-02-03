@@ -1,8 +1,15 @@
-import tarfile
-from contextlib import closing
-import os
+#! /usr/bin/env/python
+# -*- coding:utf-8 -*-
 
-os.mkdir("tar")
-with closing(tarfile.open("test.tar","r")) as t:
-    t.extract("test.txt","tar")
-print os.listdir("tar")
+import tarfile
+import time
+from contextlib import closing
+
+with closing(tarfile.open('example.tar','r')) as t:
+    for member_info in t.getmembers():
+        print member_info.name
+        print '\tModified:\t',time.ctime(member_info.mtime)
+        print '\tMode    :\t',oct(member_info.mode)
+        print '\tType     :\t',member_info.type
+        print '\tSize      :\t',member_info.size,'bytes'
+        print

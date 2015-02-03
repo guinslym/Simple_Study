@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="1.0">
+<head>
+    <title>我的播客</title>
+    <dateCreated>Sun,07 Mar 2010 15:23:26 GMT</dateCreated>
+    <dateModified>un,07 Mar 2010 15:23:26 GMT</dateModified>
+</head>
+<body>
+    <outline text="Fiction">
+        <outline text="tor.com/category/tordotsories" type="rss"
+            xmlUrl="http://tor.com/rss/category/TorDotStories"
+            htmlUrl="http://www.tor.com"/>
+    </outline>
+    <outline text="Python">
+        <outline text="PyCon Podcast" type="rss"
+            xmlUrl="http://advocacy.python.org/podcasts/python.rss"
+            htmlUrl="http://advocacy.python.org/podcasts/" />
+    </outline>
+</body>
+</opml>

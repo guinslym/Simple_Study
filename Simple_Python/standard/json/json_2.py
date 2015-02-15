@@ -1,8 +1,16 @@
+#! /usr/bin/env/python
+# -*- coding:utf-8 -*-
+
 import json
-j=json.dumps(
-	[1,2,3,{"4":"hello","5":"world"}],
-	sort_keys=True,
-	indent=4,
-	separators=(',',':')
-	)
-print j
+
+data = [{'a':'张三','b':(2,4),'c':3.0}]
+print 'DATA  :',data
+
+data_string = json.dumps(data)
+print 'ENCODED:',data_string
+
+decoded = json.loads(data_string)
+print 'DECODED:',decoded
+
+print 'ORIGINAL:',type(data[0]['b'])
+print 'DECODED:',type(decoded[0]['b'])

@@ -1,0 +1,9 @@
+From MAILER-DAEMON Mon Feb 16 15:39:29 2015
+From: Author <author@example.com>
+To: Recipient <recipient@example.com>
+Subject: Sample message 1
+
+This is the body.
+>From (should be escaped).
+There are 3 lines.
+

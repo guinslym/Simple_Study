@@ -3,11 +3,11 @@
 
 import locale
 
-sample_locales = [('USA','en_US'),
-                  ('France','fr_FR'),
-                  ('Spain','es_ES'),
-                  ('Portugal','pt_PT'),
-                  ('Poland', 'pl_PL'),
+sample_locales = [('USA','en_US.UTF-8'),
+                  ('France','fr_FR.UTF-8'),
+                  ('Spain','es_ES.UTF-8'),
+                  ('Portugal','pt_PT.UTF-8'),
+                  ('Poland', 'pl_PL.UTF-8'),
                  ]
 
 print '{0:.20}s {1:.15}s {2:.20}s'.format('Locale','Integer','Float')

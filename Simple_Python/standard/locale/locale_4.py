@@ -1,13 +1,13 @@
+#! /usr/bin/env/python
 # -*- coding:utf-8 -*-
-# /usr/bin/env/python
 
 import locale
 
-sample_locales = [('USA','en_US','1,234.56'),
-                  ('France','fr_FR','1234,56'),
-                  ('Spain','es_ES','1234,56'),
-                  ('Portugal','pt_PT','1234.56'),
-                  ('Poland', 'pl_PL','1 234,56'),
+sample_locales = [('USA','en_US.UTF-8','1,234.56'),
+                  ('France','fr_FR.UTF-8','1234,56'),
+                  ('Spain','es_ES.UTF-8','1234,56'),
+                  ('Portugal','pt_PT.UTF-8','1234.56'),
+                  ('Poland', 'pl_PL.UTF-8','1234,56'),
                  ]
 
 for name,loc,a in sample_locales:

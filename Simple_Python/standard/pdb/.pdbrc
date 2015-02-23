@@ -1,0 +1,11 @@
+# Show python help
+alias ph !help(%1)
+
+# Overridden alias
+alias redefined p 'home definition'
+
+# Breakpoints
+break 7
+
+# Overridden alias
+alias redefined p 'local definition'

@@ -1,0 +1,21 @@
+#! /usr/bin/env/python
+# -*- coding:utf-8 -*-
+
+import dis
+import sys
+import timeit
+
+module_name = sys.argv[1]
+module = __import__(module_name)
+Dictionary = module.Dictionary
+
+dis.dis(Dictionary.load_data)
+print
+t = timeit.Timer(
+    'd = Dictionary(words)',
+    """from %(module_name)s import Dictionary
+words = [l.strip() for l in open('/home/tim/words', 'rt')]
+    """ % locals()
+    )
+iterations = 10
+print 'TIME:%0.4f' % (t.timeit(iterations)/iterations)

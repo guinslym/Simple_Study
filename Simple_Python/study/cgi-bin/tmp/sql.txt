@@ -1,0 +1,25 @@
+find方法,如果传入1个字符串,则直接where语句输出。
+数组时输入this.*表示该表所有字段，
+conditions为array,则变为in
+有count变为SELECT COUNT(*) as c FROM ecm_goods goods WHERE goods.goods_id  IN ('759','758') 
+如过index_key存在则添加主键
+'belong_to_spec'=>array(
+            'model'=>'goodsspec',
+            'type'=>HAS_ONE,
+            'foreign_key'=>'spec_id',
+        )
+外键位等号右侧的字段
+'ext_limit'=>array(
+                'goods_id'=>780
+            )
+会添加and 表名。字段=数值
+自动验证的字段,
+required,
+type类型
+min
+max
+filter,输入函数名
+valid，自定义验证
+reg
+default
+HAS_MANY则为一对多关联

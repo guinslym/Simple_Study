@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:t="http://twistedmatrix.com/ns/twisted.web.template/0.1">
+<head>
+    <meta charset="UTF-8"/>
+    <title>模板一</title>
+</head>
+<body>
+    <div t:render="header" />
+        <div id="content">
+            <p>这里是使用Twisted生成的模板页面</p>
+        </div>
+    <div t:render="footer" />这是是尾部
+</body>
+</html>

@@ -38,6 +38,15 @@ class Math(object):
         else:
             m = n-m
         return functools.reduce((lambda x,y:x*y),range(n,m,-1))
+    def GCD(self,a,b):
+        """
+        计算最大公约数
+        m.GCD(24,30)
+        """
+        while a!=0:
+            a,b = b%a,a
+        return b
 
 m = Math()
 print m.Binomial(4,2)
+print m.GCD(30,24)

@@ -5,7 +5,7 @@ Created on Tue Apr 28 10:40:48 2015
 @author: tim
 """
 import robotparser
-from Time import getgmttime
+from Time import Time 
 
 class Robot(object):
     def __init__(self):
@@ -20,13 +20,12 @@ class Robot(object):
         for x in self.fetch:
             print self.rp.can_fetch(self.fetch[x],self.url+'/'+x)
     def get_mtime(self):
-        return getgmttime(self.rp.mtime())
+        t = Time()
+        return t.getgmttime(self.rp.mtime())
     def get_modified(self):
-        return getgmttime(self.rp.modified())
+        return Time.getgmttime(self.rp.modified())
         
 if __name__ == '__main__':
-    import sys
-    sys.path.append('/home/tim/Simple_Study/Simple_Project')
     r = Robot()
     r.Can_fetch(url='http://www.jd.com',
                   fetch={

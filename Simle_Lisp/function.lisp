@@ -119,9 +119,11 @@
   (with-open-file (in filename :element-type '(unsigned-byte 8))
   (file-length in)))
 
-(defun byte-xor (a b)
+(defun byte-xor (&rest list)
   "按位异或,lggand支持多个参数"
-  (logior a b))
+  (if (null list)
+      0
+      (apply #'logior list)))
 
 (defun byte-and (a b)
   "按位与操作"
@@ -131,3 +133,34 @@
   "进位"
   (ash a b)
 )
+
+(defun id (function-name)
+  "获取函数的信息"
+  (symbol-function function-name))
+
+(defun filter (fn list)
+  "实现Python中的filter函数,
+  其等价于lisp中的remove-if函数"
+  (if (null list)
+      nil
+      (if (funcall fn (car list))
+        (filter fn (cdr list))
+        (cons (car list)
+          (filter fn (cdr list))))))
+
+(defun my-filter (fn list)
+"实现Python中的filter函数,"
+    (remove-if fn list))
+
+(defun get-string-code (string)
+  "获取字符串的数值"
+  (loop for x across string collect (char-code x)))
+
+(defun genenate-string (num)
+  "生成给定字符串"
+  (cond ((= num 1)
+             (map 'string #'code-char (loop for x from 97 to 122 collect x)))
+             ((= num 2)
+             (map 'string #'code-char (loop for x from 65 to 90 collect x)))
+             ((= num 3)
+             (map 'string #'code-char (loop for x from 65 to 90 for y from 97 to 122 append (list x y))))))

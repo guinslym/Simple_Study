@@ -45,10 +45,11 @@ class Time(object):
     def getfloattimestamp(self):
         """获取浮点的时间戳"""
         return time.time()
-        
-        
-t = Time()
-print t.getgmttime()
-print t.getlocaltime()
-print t.gettimestamp()
-print t.getgmttimestamp()
+          
+#t = Time()
+#print t.getgmttime()
+#print t.getlocaltime()
+#print t.gettimestamp()
+#print t.getgmttimestamp()
+if __name__ == '__main__':
+    Time()

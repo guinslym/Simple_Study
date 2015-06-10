@@ -19,6 +19,9 @@ class Set(object):
             if x in other:
                 res.append(x)
         return Set(res)
+    def fast_interset(self,other):
+        res = [x for x in self.data if x in other]
+        return Set(res)
     def union(self,other):
         res = self.data[:]
         for x in other:

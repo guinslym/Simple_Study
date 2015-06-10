@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+#!/usr/bin/env python2
 """
 常见加密函数,可以实现crc32,md5,sha128,sha256,sha512加密
 """
@@ -29,7 +30,7 @@ def chunk_size(str_len,data):
         yield compute
         data_start +=str_len
     return
-    
+
 if __name__ == '__main__':
     algo = sys.argv[1]
     content = sys.argv[2]
